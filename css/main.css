@@ -34,14 +34,20 @@
 
   /* BACKGROUND IMAGES */
 
-  #home-bkg {
+  .home-bkg {
     background-image: url('../img/index-bkg.jpg');
     background-attachment: fixed;
     background-size: cover;
     }
 
-  #gallery-bkg {
+  .gallery-bkg {
     background-image: url('../img/gallery-bkg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    }
+
+  .projects-bkg {
+    background-image: url('../img/projects-bkg.jpg');
     background-attachment: fixed;
     background-size: cover;
     }
@@ -125,10 +131,12 @@
   }
 
   .projects-img {
-    width: 550px;
+    width: 650px;
     margin: 15px;
     object-fit: contain;
   }
+
+
 
 
 
