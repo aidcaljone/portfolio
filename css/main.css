@@ -41,7 +41,7 @@
     }
 
   #gallery-bkg {
-    background-image: url('../img/gallery/background.jpg');
+    background-image: url('../img/gallery-bkg.jpg');
     background-attachment: fixed;
     background-size: cover;
     }
@@ -103,18 +103,32 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
+    margin-top: 15px;
     max-width: 90%;
   }
 
   .gallery-img {
     width: 550px;
-    margin: 10px;
+    margin: 15px;
     object-fit: contain;
   }
 
-  /* ----------------------------- DESIGN CSS -------------------------------*/
+  /* ----------------------------- PROJECTS CSS -------------------------------*/
 
+  .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 15px;
+    max-width: 50%;
+  }
 
+  .projects-img {
+    width: 550px;
+    margin: 15px;
+    object-fit: contain;
+  }
 
 
 
