@@ -1,0 +1,48 @@
+@media screen and (max-width: 414px) {
+
+  /* ----------------------------- FONT FACE -------------------------------*/
+
+  @font-face {
+    src: url(../fonts/campton/CamptonBlack.otf);
+    font-family: CamptonBlack;
+  }
+
+  @font-face {
+    src: url(../fonts/campton/CamptonBold.otf);
+    font-family: CamptonBold;
+  }
+
+  @font-face {
+    src: url(../fonts/campton/CamptonMedium.otf);
+    font-family: CamptonMedium;
+  }
+
+  @font-face {
+    src: url(../fonts/campton/CamptonMediumItalic.otf);
+    font-family: CamptonMediumItalic;
+  }
+
+  @font-face {
+    src: url(../fonts/campton/CamptonBook.otf);
+    font-family: CamptonBook;
+  }
+
+  @font-face {
+    src: url(../fonts/campton/CamptonLight.otf);
+    font-family: CamptonLight;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

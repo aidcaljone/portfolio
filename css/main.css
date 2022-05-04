@@ -1,55 +1,142 @@
-#home-bkg {
-  background-image: url('../img/index-bkg.jpg');
-  background-attachment: fixed;
-  background-size: cover;
+@media screen and (min-width: 415px) {
+
+  /* ----------------------------- FONT FACE -------------------------------*/
+
+  @font-face {
+    src: url(../fonts/campton/CamptonBlack.otf);
+    font-family: CamptonBlack;
   }
 
-#gallery-bkg {
-  background-image: url('..img/gallery/background.jpg');
-  background-attachment: fixed;
-  background-size: cover;
+  @font-face {
+    src: url(../fonts/campton/CamptonBold.otf);
+    font-family: CamptonBold;
   }
 
-h1 {
-  font-family: campton, sans-serif;
-  margin: 10px;
-  padding: 10px;
-  line-height: 50px;
-  color: white
-}
+  @font-face {
+    src: url(../fonts/campton/CamptonMedium.otf);
+    font-family: CamptonMedium;
+  }
 
-#main-header {
-    text-align: left;
-}
+  @font-face {
+    src: url(../fonts/campton/CamptonMediumItalic.otf);
+    font-family: CamptonMediumItalic;
+  }
 
-ul {
-  list-style-type: none;
-  font-family: campton, sans-serif;
-  margin: 10px;
-  padding: 10px;
-  line-height: 50px;
-}
+  @font-face {
+    src: url(../fonts/campton/CamptonBook.otf);
+    font-family: CamptonBook;
+  }
 
-a:link {
-  text-decoration: none;
-  color: white;
-}
+  @font-face {
+    src: url(../fonts/campton/CamptonLight.otf);
+    font-family: CamptonLight;
+  }
 
-a:visited {
-  text-decoration: none;
-  color:purple;
-}
+  /* BACKGROUND IMAGES */
 
-a:hover {
-  text-decoration: none;
-  color: black;
-}
+  #home-bkg {
+    background-image: url('../img/index-bkg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    }
 
-a:active {
-  text-decoration: none;
-  color: black;
-}
+  #gallery-bkg {
+    background-image: url('../img/gallery/background.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    }
 
-div:gallery {
-  image-align: center
+  /* ----------------------------- SITEWIDE CSS -------------------------------*/
+
+  .center-button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .back-button-white {
+    font-family: CamptonBold;
+    font-size: 30px;
+    color: white;
+  }
+
+  /* ----------------------------- INDEX CSS -------------------------------*/
+
+  ul {
+    text-align: center;
+    list-style-type: none;
+    font-family: CamptonBlack;
+    font-size: 60px;
+    align-items: center;
+  }
+
+  li {
+    padding: 60px;
+  }
+
+  a:link {
+    text-decoration: none;
+    color: white;
+  }
+
+  a:visited {
+    text-decoration: none;
+    color:white;
+  }
+
+  a:hover {
+    text-decoration: none;
+    color: #44344f;
+  }
+
+  a:active {
+    text-decoration: none;
+    color: black;
+  }
+
+  /* ----------------------------- GALLERY CSS -------------------------------*/
+
+  .gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 90%;
+  }
+
+  .gallery-img {
+    width: 550px;
+    margin: 10px;
+    object-fit: contain;
+  }
+
+  /* ----------------------------- DESIGN CSS -------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
