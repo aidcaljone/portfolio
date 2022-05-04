@@ -1,0 +1,49 @@
+#home-bkg {
+  background-image: url('images/misty.png');
+  background-attachment: fixed;
+  background-size: cover;
+  }
+
+h1 {
+  font-family: campton, sans-serif;
+  margin: 10px;
+  padding: 10px;
+  line-height: 50px;
+  color: white
+}
+
+#main-header {
+    text-align: left;
+}
+
+ul {
+  list-style-type: none;
+  font-family: campton, sans-serif;
+  margin: 10px;
+  padding: 10px;
+  line-height: 50px;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color:purple;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+div:gallery {
+  image-align: center
+}
