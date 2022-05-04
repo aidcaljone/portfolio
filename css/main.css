@@ -4,6 +4,12 @@
   background-size: cover;
   }
 
+#gallery-bkg {
+  background-image: url('img/gallery/background.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  }
+
 h1 {
   font-family: campton, sans-serif;
   margin: 10px;
