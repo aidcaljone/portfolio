@@ -1,11 +1,11 @@
 #home-bkg {
-  background-image: url('images/misty.png');
+  background-image: url('../img/index-bkg.jpg');
   background-attachment: fixed;
   background-size: cover;
   }
 
 #gallery-bkg {
-  background-image: url('img/gallery/background.jpg');
+  background-image: url('..img/gallery/background.jpg');
   background-attachment: fixed;
   background-size: cover;
   }
