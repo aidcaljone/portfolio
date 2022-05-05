@@ -81,11 +81,12 @@
     list-style-type: none;
     font-family: CamptonBlack;
     font-size: 60px;
-    align-items: center;
   }
 
   li {
-    padding: 60px;
+    padding: 50px;
+    margin: auto 0;
+
   }
 
   a:link {
@@ -137,9 +138,22 @@
   }
 
   .projects-img {
-    width: 650px;
+    width: 550px;
     margin: 15px;
     object-fit: contain;
+  }
+
+  figcaption {
+    text-align: center;
+    text-decoration: none;
+    font-family: CamptonBold;
+    font-size: 50px;
+  }
+
+  figcaption:hover {
+    text-align: center;
+    text-decoration: none;
+    color: #44344f;
   }
 
 
