@@ -175,6 +175,33 @@
   /* ----------------------------- BIOGRAPHY CSS -------------------------------*/
 
 
+  .bio-container {
+    margin: auto 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .my-picture {
+    width: 25%;
+    float: left;
+  }
+
+  .bio-head {
+    width: 25%
+    float: right;
+    color: white;
+    font-family: CamptonBold;
+    font-size: 24px;
+  }
+
+  .bio-text {
+    width: 25%
+    float: right;
+    color: white;
+    font-family: CamptonMedium;
+    font-size: 16px;
+  }
+
 
 
 
