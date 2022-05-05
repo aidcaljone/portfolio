@@ -32,33 +32,33 @@
     font-family: CamptonLight;
   }
 
-  /* BACKGROUND IMAGES */
+  /* ----------------------------- BACKGROUNDS -------------------------------*/
 
-  .home-bkg {
+  #index-bkg {
     background-image: url('../img/index-bkg.jpg');
     background-attachment: fixed;
     background-size: cover;
     }
 
-  .gallery-bkg {
+  #gallery-bkg {
     background-image: url('../img/gallery-bkg.jpg');
     background-attachment: fixed;
     background-size: cover;
     }
 
-  .projects-bkg {
-    background-image: url('../img/projects-bkg.jpg');
+  #projects-bkg {
+    background-image: url('../img/media-bkg.jpg');
     background-attachment: fixed;
     background-size: cover;
     }
 
-  .projects-bkg-clicked {
-    background-image: url('../img/projects-bkg-clicked.jpg');
+  #projects-bkg-clicked {
+    background-image: url('../img/media-bkg-clicked.jpg');
     background-attachment: fixed;
     background-size: cover;
     }
 
-  /* ----------------------------- SITEWIDE CSS -------------------------------*/
+  /* --------------------------- SITEWIDE CSS -------------------------------*/
 
   .center-button {
     display: flex;
@@ -125,7 +125,7 @@
     object-fit: contain;
   }
 
-  /* ----------------------------- PROJECTS CSS -------------------------------*/
+  /* ----------------------------- MEDIA CSS -------------------------------*/
 
   .projects-container {
     display: flex;
@@ -140,8 +140,11 @@
     width: 650px;
     margin: 15px;
     object-fit: contain;
-
   }
+
+
+
+  /* ----------------------------- BIOGRAPHY CSS -------------------------------*/
 
 
 
