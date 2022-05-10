@@ -1,3 +1,4 @@
+
 @media screen and (min-width: 415px) {
 
   /* ----------------------------- FONT FACE -------------------------------*/
@@ -66,6 +67,14 @@
 
   /* --------------------------- SITEWIDE CSS -------------------------------*/
 
+  html, body {
+      height: 100%;
+  }
+
+  body {
+      margin: 0;
+  }
+
   .center-button {
     display: flex;
     flex-wrap: wrap;
@@ -75,46 +84,52 @@
   }
 
   .back-button-white {
-    font-family: CamptonBold;
-    font-size: 30px;
+    font-family: CamptonBlack;
+    font-size: 36px;
     color: white;
+    text-decoration: none;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .back-button-white:hover {
+    color: #44344f;
+
   }
 
   /* ----------------------------- INDEX CSS -------------------------------*/
 
-  ul {
-    text-align: center;
-    list-style-type: none;
+
+  .index-container {
+      height: 100%;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .menu-item {
     font-family: CamptonBlack;
-    font-size: 60px;
     text-shadow: 2px 2px 5px #00000033;
-  }
-
-  li {
+    text-align: center;
+    justify-content: center;
     padding: 50px;
-    margin: auto 0;
-
   }
 
-  a:link {
+  .menu-item a {
+    font-family: CamptonBlack;
+    font-size: 70px;
+    text-shadow: 2px 2px 5px #00000033;
     text-decoration: none;
+    margin: 0 auto;
     color: white;
   }
 
-  a:visited {
-    text-decoration: none;
-    color:white;
-  }
-
-  a:hover {
-    text-decoration: none;
+  .menu-item a:hover {
     color: #44344f;
   }
 
-  a:active {
-    text-decoration: none;
-    color: black;
-  }
 
   /* ----------------------------- GALLERY CSS -------------------------------*/
 
@@ -137,16 +152,26 @@
 
 
   .media-container {
+    height: 100%;
+    max-width: 70%;
+    padding: 0;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     justify-content: center;
+
+  }
+
+  .media-item {
     margin: 0 auto;
-    margin-top: 15px;
-    max-width: 100%;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-top: 15%;
-    margin-bottom: 15%;
+    padding: 0;
+  }
+
+  .media-item a {
+    text-decoration: none;
+    padding: 0;
+    margin: 0 auto;
   }
 
   .media-item:hover {
@@ -154,53 +179,109 @@
   }
 
   .media-img {
-    width: 380px;
-    margin: 30px;
+    width: 450px;
+    margin: 20px;
     object-fit: contain;
-    padding-bottom: 0px;
+
   }
 
   .desc {
     color: white;
     text-align: center;
-    font-family: CamptonMedium;
+    font-family: CamptonBold;
     font-size: 25px;
-    padding: 0px;
-    margin: auto 0;
+    margin: 0 auto;
   }
 
 
+  /* ----------------------------- MEDIA-DESIGN CSS -------------------------------*/
+
+  .media-design-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 0 auto;
+    margin-bottom: auto;
+    margin-bottom: 5%;
+  }
+
+  .media-design-item {
+    padding: 5px;
+  }
+
+  .media-design-item a{
+    text-decoration: none;
+  }
+
+
+  .media-design-item:hover {
+    opacity: 50%;
+  }
+
+  .media-design-img {
+    width: 450px;
+    margin: 30px;
+    object-fit: contain;
+  }
+
+  .desc-design {
+    color: white;
+    text-align: center;
+    font-family: CamptonMedium;
+    font-size: 25px;
+    padding: 0px;
+    margin: 0 auto;
+  }
 
 
   /* ----------------------------- BIOGRAPHY CSS -------------------------------*/
 
 
   .bio-container {
-    margin: auto 0;
+    height: 70%;
+    padding: 0;
+    margin: 0;
     display: flex;
+    align-items: center;
     justify-content: center;
   }
 
-  .my-picture {
-    width: 25%;
+  .my-picture img {
+    margin: 0 auto;
     float: left;
+    max-width: 300px;
   }
 
-  .bio-head {
-    width: 25%
-    float: right;
+  .bioh2 {
+    float: left;
     color: white;
     font-family: CamptonBold;
-    font-size: 24px;
+    font-size: 36px;
+    margin: 0 auto;
+    padding-left: 50px;
   }
 
-  .bio-text {
-    width: 25%
-    float: right;
+  .bio-text p {
+    float: left;
     color: white;
-    font-family: CamptonMedium;
-    font-size: 16px;
+    font-family: CamptonBook;
+    font-size: 20px;
+    margin: 0 auto;
+    padding-left: 50px;
+    padding-top: 50px;
   }
+
+  .cv-container {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
 
 
 
