@@ -152,7 +152,6 @@
 
 
   .media-container {
-    height: 100%;
     max-width: 70%;
     padding: 0;
     margin: 0 auto;
@@ -165,7 +164,7 @@
 
   .media-item {
     margin: 0 auto;
-    padding: 0;
+    padding: 5px;
   }
 
   .media-item a {
@@ -180,7 +179,7 @@
 
   .media-img {
     width: 450px;
-    margin: 20px;
+    margin: 30px;
     object-fit: contain;
 
   }
@@ -200,7 +199,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     margin-top: 0 auto;
     margin-bottom: auto;
@@ -213,6 +212,8 @@
 
   .media-design-item a{
     text-decoration: none;
+    padding: 0;
+    margin: 0 auto;
   }
 
 
@@ -233,6 +234,26 @@
     font-size: 25px;
     padding: 0px;
     margin: 0 auto;
+  }
+
+
+  /* ----------------------------- MEDIA-VIDEO CSS -------------------------------*/
+
+  .video-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 15px;
+    max-width: 90%;
+  }
+
+  .video-gallery {
+    width: 760px;
+    height: 515px;
+    margin: 0 auto;
+    padding: 30px;
+    object-fit: contain;
   }
 
 
