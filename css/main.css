@@ -138,7 +138,7 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
-    margin-top: 15px;
+    padding-top: 15px;
     max-width: 90%;
   }
 
@@ -148,12 +148,20 @@
     object-fit: contain;
   }
 
+  .gallery-hr {
+    border-color: #44344f;
+    border-width: 8px;
+    border-radius: 8px;
+    -webkit-filter: blur(4px);
+    opacity: 80%;
+  }
+
+
+
   /* ----------------------------- MEDIA CSS -------------------------------*/
 
-
   .media-container {
-    max-width: 70%;
-    padding: 0;
+    width: 50%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -164,7 +172,7 @@
 
   .media-item {
     margin: 0 auto;
-    padding: 5px;
+    padding: 0px;
   }
 
   .media-item a {
@@ -178,7 +186,7 @@
   }
 
   .media-img {
-    width: 450px;
+    width: 350px;
     margin: 30px;
     object-fit: contain;
 
@@ -203,7 +211,6 @@
     margin: 0 auto;
     margin-top: 0 auto;
     margin-bottom: auto;
-    margin-bottom: 5%;
   }
 
   .media-design-item {
@@ -222,7 +229,7 @@
   }
 
   .media-design-img {
-    width: 450px;
+    width: 350px;
     margin: 30px;
     object-fit: contain;
   }
