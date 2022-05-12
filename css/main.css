@@ -187,7 +187,8 @@
 
   .media-img {
     width: 450px;
-    margin: 30px;
+    margin-top: 30px;
+    margin-bottom:10px;
     object-fit: contain;
 
   }
@@ -201,20 +202,20 @@
   }
 
 
-  /* ----------------------------- MEDIA-DESIGN CSS -------------------------------*/
+  /* ----------------------------- MEDIA-PROJECTS CSS -------------------------------*/
 
   .media-design-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     margin-top: 0 auto;
     margin-bottom: auto;
   }
 
   .media-design-item {
-    padding: 5px;
+    padding: 20px;
   }
 
   .media-design-item a{
@@ -230,7 +231,8 @@
 
   .media-design-img {
     width: 350px;
-    margin: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
     object-fit: contain;
   }
 
@@ -242,6 +244,120 @@
     padding: 0px;
     margin: 0 auto;
   }
+
+  /* ---------------------- MEDIA-PROJECT-CLICKED CSS ------------------------*/
+
+  .project-title-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top:50px;
+    max-width: 90%;
+  }
+
+  .project-text-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 90%;
+    padding: 0;
+  }
+
+  .project-header {
+    font-family: CamptonBold;
+    font-size: 32px;
+    color: white;
+  }
+
+  .project-subheader {
+    font-family: CamptonMedium;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+  }
+
+  .project-text {
+    font-family: CamptonBook;
+    font-size: 18px;
+    color: white;
+  }
+
+  .project-img-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 0 auto;
+    margin-bottom: auto;
+  }
+
+  .project-img-item {
+    padding: 20px;
+  }
+
+
+  .project-img {
+    width: 400px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    object-fit: contain;
+  }
+
+  .project-desc {
+    color: white;
+    text-align: center;
+    font-family: CamptonMedium;
+    font-size: 20px;
+    padding: 0px;
+    margin: 0 auto;
+  }
+
+
+  /* ---------------------- SIZING ID ------------------------*/
+
+
+  /* MULBERRYST*/
+
+  #final-sign {
+    width: 600px;
+
+  }
+
+  #mulberry-inspo {
+    width: 407px;
+
+  }
+
+
+
+
+
+  /* PEBBLEPARK*/
+
+  #sketch-inspo {
+    width:335px;
+  }
+
+  #final-cover {
+    width: 500px;
+  }
+
+  #final-song {
+    width: 800px;
+    height: 250px;
+    padding-top:40px;
+  }
+
+  #iframe-desc {
+    padding-top:15px;
+    padding-bottom: 15px;
+  }
+
+
+
 
 
   /* ----------------------------- MEDIA-VIDEO CSS -------------------------------*/
