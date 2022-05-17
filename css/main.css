@@ -332,9 +332,6 @@
   }
 
 
-
-
-
   /* PEBBLEPARK*/
 
   #sketch-inspo {
@@ -358,8 +355,6 @@
 
 
 
-
-
   /* ----------------------------- MEDIA-VIDEO CSS -------------------------------*/
 
   .video-container {
@@ -378,6 +373,39 @@
     padding: 30px;
     object-fit: contain;
   }
+
+
+  /* ----------------------------- MEDIA-ARTWORK CSS -------------------------------*/
+
+  .artwork-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 15px;
+    max-width: 90%;
+  }
+
+  .artwork-img {
+    width: 550px;
+    margin: 15px;
+    object-fit: contain;
+  }
+
+  .artwork-hr {
+    border-color: #44344f;
+    border-width: 8px;
+    border-radius: 8px;
+    -webkit-filter: blur(4px);
+    opacity: 80%;
+  }
+
+
+
+
+
+
+
 
 
   /* ----------------------------- BIOGRAPHY CSS -------------------------------*/
