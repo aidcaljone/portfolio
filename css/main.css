@@ -298,9 +298,8 @@
     padding: 20px;
   }
 
-
   .project-img {
-    width: 400px;
+    width: 450px;
     margin-top: 30px;
     margin-bottom: 10px;
     object-fit: contain;
@@ -322,12 +321,12 @@
   /* MULBERRYST*/
 
   #final-sign {
-    width: 600px;
+    width: 650px;
 
   }
 
   #mulberry-inspo {
-    width: 407px;
+    width: 450px;
 
   }
 
@@ -335,15 +334,15 @@
   /* PEBBLEPARK*/
 
   #sketch-inspo {
-    width:335px;
+    width:377px;
   }
 
   #final-cover {
-    width: 500px;
+    width: 550px;
   }
 
   #final-song {
-    width: 800px;
+    width: 825px;
     height: 250px;
     padding-top:40px;
   }
