@@ -211,7 +211,6 @@
     width: 90%;
     margin: 0 auto;
     margin-top: 0 auto;
-    margin-bottom: auto;
   }
 
   .media-design-item {
@@ -231,8 +230,7 @@
 
   .media-design-img {
     width: 350px;
-    margin-top: 30px;
-    margin-bottom: 10px;
+    margin: 0 auto;
     object-fit: contain;
   }
 
@@ -244,6 +242,22 @@
     padding: 0px;
     margin: 0 auto;
   }
+
+  .media-title-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 25px;
+    max-width: 90%;
+  }
+
+  .media-header {
+    font-family: CamptonBold;
+    font-size: 36px;
+    color: white;
+  }
+
 
   /* ---------------------- MEDIA-PROJECT-CLICKED CSS ------------------------*/
 
