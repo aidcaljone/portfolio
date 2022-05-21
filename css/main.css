@@ -94,7 +94,15 @@
 
   .back-button-white:hover {
     color: #44344f;
+  }
 
+  .desc {
+    color: white;
+    text-align: center;
+    font-family: CamptonBold;
+    font-size: 25px;
+    margin: 0 auto;
+    padding-top: 10px;
   }
 
   /* ----------------------------- INDEX CSS -------------------------------*/
@@ -190,15 +198,6 @@
     margin-top: 30px;
     margin-bottom:10px;
     object-fit: contain;
-
-  }
-
-  .desc {
-    color: white;
-    text-align: center;
-    font-family: CamptonBold;
-    font-size: 25px;
-    margin: 0 auto;
   }
 
 
@@ -328,22 +327,35 @@
     margin: 0 auto;
   }
 
+  .surreal-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 15px;
+    max-width: 90%;
+  }
+
+  .surreal-gallery {
+    width: 760px;
+    height: 515px;
+    margin: 0 auto;
+    padding: 30px;
+    object-fit: contain;
+  }
+
 
   /* ---------------------- SIZING ID ------------------------*/
-
 
   /* MULBERRYST*/
 
   #final-sign {
     width: 650px;
-
   }
 
   #mulberry-inspo {
     width: 450px;
-
   }
-
 
   /* PEBBLEPARK*/
 
@@ -365,6 +377,22 @@
     padding-top:15px;
     padding-bottom: 15px;
   }
+
+  /* TACTILE*/
+
+  #tactile-img1 {
+    width: 750px;
+  }
+
+  #tactile-img2 {
+    width: 550px;
+  }
+
+  #tactile-img3 {
+    width: 550px;
+  }
+
+
 
 
 
