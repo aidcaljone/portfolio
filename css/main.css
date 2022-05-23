@@ -102,7 +102,7 @@
     font-family: CamptonBold;
     font-size: 25px;
     margin: 0 auto;
-    padding-top: 10px;
+    padding-top: 8px;
   }
 
   /* ----------------------------- INDEX CSS -------------------------------*/
@@ -147,11 +147,11 @@
     justify-content: center;
     margin: 0 auto;
     padding-top: 15px;
-    max-width: 90%;
+    max-width: 100%;
   }
 
   .gallery-img {
-    width: 550px;
+    width: 600px;
     margin: 15px;
     object-fit: contain;
   }
@@ -169,18 +169,18 @@
   /* ----------------------------- MEDIA CSS -------------------------------*/
 
   .media-container {
-    height: 100%;
-    width: 100%;
+    width: 50%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    padding-bottom: 20px;
   }
 
   .media-item {
     margin: 0 auto;
-    padding: 0px;
+    padding: 5px;
   }
 
   .media-item a {
@@ -194,7 +194,7 @@
   }
 
   .media-img {
-    width: 400px;
+    width: 500px;
     margin-top: 30px;
     margin-bottom:10px;
     object-fit: contain;
@@ -409,7 +409,7 @@
   }
 
   .video-gallery {
-    width: 760px;
+    width: 775px;
     height: 515px;
     margin: 0 auto;
     padding: 30px;
