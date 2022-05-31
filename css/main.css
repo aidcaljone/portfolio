@@ -156,6 +156,21 @@
     object-fit: contain;
   }
 
+  .gallery-container-phone {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 15px;
+    max-width: 80%;
+  }
+
+  .gallery-phone {
+    width: 385px;
+    margin: 15px;
+    object-fit: contain;
+  }
+
   .gallery-hr {
     border-color: #44344f;
     border-width: 8px;
