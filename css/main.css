@@ -152,7 +152,7 @@
 
   .gallery-img {
     width: 600px;
-    margin: 15px;
+    margin: 20px;
     object-fit: contain;
   }
 
@@ -166,8 +166,8 @@
   }
 
   .gallery-phone {
-    width: 385px;
-    margin: 15px;
+    width: 380px;
+    margin: 20px;
     object-fit: contain;
   }
 
