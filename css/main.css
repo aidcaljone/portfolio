@@ -238,7 +238,6 @@
     margin: 0 auto;
   }
 
-
   .media-design-item:hover {
     opacity: 50%;
   }
@@ -406,6 +405,10 @@
 
   #tactile-img3 {
     width: 550px;
+  }
+
+  #hind-banner {
+    width: 950px;
   }
 
 
