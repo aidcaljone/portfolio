@@ -359,6 +359,27 @@
     object-fit: contain;
   }
 
+  .menu-weblink {
+    font-family: CamptonBlack;
+    text-shadow: 2px 2px 5px #00000033;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .menu-weblink a {
+    font-family: CamptonBlack;
+    font-size: 40px;
+    text-shadow: 2px 2px 5px #00000033;
+    text-decoration: none;
+    margin: 0 auto;
+    color: white;
+  }
+
+  .menu-weblink a:hover {
+    color: #44344f;
+  }
+
 
   /* ---------------------- SIZING ID ------------------------*/
 
