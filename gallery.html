@@ -4,14 +4,14 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/mobile.css">
+    <script defer src="./scripts/main.js" charset="utf-8"></script>
     <title>gallery</title>
   </head>
 
   <body id="gallery-bkg">
 
     <div class="gallery-container">
-      <img class="gallery-img" id=img1 src="./img/gallery/G-1.jpg" onclick="enlargeImg()">
-      <button onclick="resetImg()">Reset</button>
+      <img class="gallery-img" src="./img/gallery/G-1.jpg" data-modal="img/mulberrysign.jpg">
       <img class="gallery-img"src="./img/gallery/G-2.jpg">
       <img class="gallery-img"src="./img/gallery/G-3.jpg">
       <img class="gallery-img"src="./img/gallery/G-4.jpg">
@@ -102,40 +102,11 @@
       <img class="gallery-phone"src="./img/gallery/phone/p38.jpg">
       <img class="gallery-phone"src="./img/gallery/phone/p39.jpg">
 
-
-
-
-
     </div>
-
 
     <div class="center-button">
       <a class="back-button-white" href="./index.html">back</a>
     </div>
-
-
-
-
-    <script>
-   // Get the img object using its Id
-   img = document.getElementById("img1");
-   // Function to increase image size
-   function enlargeImg() {
-     // Set image size to 1.5 times original
-     img.style.transform = "scale(1.5)";
-     // Animation effect
-     img.style.transition = "transform 0.25s ease";
-   }
-   // Function to reset image size
-   function resetImg() {
-     // Set image size to original
-     img.style.transform = "scale(1)";
-     img.style.transition = "transform 0.25s ease";
-   }
-
-
-
- </script>
 
   </body>
 

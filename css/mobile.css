@@ -1,5 +1,6 @@
 @media screen and (max-width: 414px) {
 
+
   /* ----------------------------- FONT FACE -------------------------------*/
 
   @font-face {
@@ -31,6 +32,578 @@
     src: url(../fonts/campton/CamptonLight.otf);
     font-family: CamptonLight;
   }
+
+  /* ----------------------------- BACKGROUNDS -------------------------------*/
+
+  #index-bkg {
+    background-image: url('../img/index-bkg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    }
+
+  #gallery-bkg {
+    background-image: url('../img/gallery-bkg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    }
+
+  #media-bkg {
+    background-image: url('../img/media-bkg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    }
+
+  #projects-bkg-clicked {
+    background-image: url('../img/media-bkg-clicked.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    }
+
+  #bio-bkg {
+    background-image: url('../img/bio-bkg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    }
+
+  /* --------------------------- SITEWIDE CSS -------------------------------*/
+
+  html, body {
+      height: 100%;
+  }
+
+  body {
+      margin: 0;
+  }
+
+  .center-button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .back-button-white {
+    font-family: CamptonBlack;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .back-button-white:hover {
+    color: #44344f;
+  }
+
+  .desc {
+    color: white;
+    text-align: center;
+    font-family: CamptonBold;
+    font-size: 25px;
+    margin: 0 auto;
+    padding-top: 8px;
+  }
+
+  /* ----------------------------- INDEX CSS -------------------------------*/
+
+
+  .index-container {
+      height: 100%;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .menu-item {
+    font-family: CamptonBlack;
+    text-shadow: 2px 2px 5px #00000033;
+    text-align: center;
+    justify-content: center;
+    padding: 25px;
+  }
+
+  .menu-item a {
+    font-family: CamptonBlack;
+    font-size: 50px;
+    text-shadow: 2px 2px 5px #00000033;
+    text-decoration: none;
+    margin: 0 auto;
+    color: white;
+  }
+
+  .menu-item a:hover {
+    color: #44344f;
+  }
+
+
+  /* ----------------------------- GALLERY CSS -------------------------------*/
+
+  .gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 15px;
+    max-width: 100%;
+  }
+
+  .gallery-img {
+    width: 150px;
+    margin: 10px;
+    object-fit: contain;
+  }
+
+
+  .gallery-container-phone {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 15px;
+    max-width: 80%;
+  }
+
+  .gallery-phone {
+    width: 90px;
+    margin: 10px;
+    object-fit: contain;
+  }
+
+  .gallery-hr {
+    border-color: #44344f;
+    border-width: 6px;
+    border-radius: 6px;
+    -webkit-filter: blur(4px);
+    opacity: 80%;
+  }
+
+
+
+  /* ----------------------------- MEDIA CSS -------------------------------*/
+
+  .media-container {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+
+  .media-item {
+    margin: 0 auto;
+    padding: 5px;
+  }
+
+  .media-item a {
+    text-decoration: none;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .media-item:hover {
+    opacity: 50%;
+  }
+
+  .media-img {
+    width: 500px;
+    margin-top: 30px;
+    margin-bottom:10px;
+    object-fit: contain;
+  }
+
+
+
+  /* ----------------------------- MEDIA-PROJECTS CSS -------------------------------*/
+
+  .media-design-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 0 auto;
+  }
+
+  .media-design-item {
+    padding: 20px;
+  }
+
+  .media-design-item a{
+    text-decoration: none;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .media-design-item:hover {
+    opacity: 50%;
+  }
+
+  .media-design-img {
+    width: 350px;
+    margin: 0 auto;
+    object-fit: contain;
+  }
+
+  .desc-design {
+    color: white;
+    text-align: center;
+    font-family: CamptonMedium;
+    font-size: 25px;
+    padding: 0px;
+    margin: 0 auto;
+  }
+
+  .media-title-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 25px;
+    max-width: 90%;
+  }
+
+  .media-header {
+    font-family: CamptonBold;
+    font-size: 36px;
+    color: white;
+  }
+
+
+  /* ---------------------- MEDIA-PROJECT-CLICKED CSS ------------------------*/
+
+  .project-title-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top:50px;
+    max-width: 90%;
+  }
+
+  .project-text-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 90%;
+    padding: 0;
+  }
+
+  .project-header {
+    font-family: CamptonBold;
+    font-size: 32px;
+    color: white;
+  }
+
+  .project-subheader {
+    font-family: CamptonMedium;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+  }
+
+  .project-text {
+    font-family: CamptonBook;
+    font-size: 18px;
+    color: white;
+  }
+
+  .project-img-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 0 auto;
+    margin-bottom: auto;
+  }
+
+  .project-img-item {
+    padding: 20px;
+  }
+
+  .project-img {
+    width: 450px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    object-fit: contain;
+  }
+
+  .project-desc {
+    color: white;
+    text-align: center;
+    font-family: CamptonMedium;
+    font-size: 20px;
+    padding: 0px;
+    margin: 0 auto;
+  }
+
+  .surreal-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 15px;
+    max-width: 90%;
+  }
+
+  .surreal-gallery {
+    width: 760px;
+    height: 515px;
+    margin: 0 auto;
+    padding: 30px;
+    object-fit: contain;
+  }
+
+  .menu-weblink {
+    font-family: CamptonBlack;
+    text-shadow: 2px 2px 5px #00000033;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .menu-weblink a {
+    font-family: CamptonBlack;
+    font-size: 40px;
+    text-shadow: 2px 2px 5px #00000033;
+    text-decoration: none;
+    margin: 0 auto;
+    color: white;
+  }
+
+  .menu-weblink a:hover {
+    color: #44344f;
+  }
+
+  .issu-embed-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 0 auto;
+    margin-bottom: auto;
+  }
+
+  .issu-embed {
+    position: relative;
+    border: none;
+    width:1200px;
+    height: 800px;
+    padding: 20px;
+
+  }
+
+
+  /* ---------------------- SIZING ID ------------------------*/
+
+  /* MULBERRYST*/
+
+  #final-sign {
+    width: 650px;
+  }
+
+  #mulberry-inspo {
+    width: 450px;
+  }
+
+  /* PEBBLEPARK*/
+
+  #sketch-inspo {
+    width:377px;
+  }
+
+  #final-cover {
+    width: 550px;
+  }
+
+  #final-song {
+    width: 825px;
+    height: 250px;
+    padding-top:40px;
+  }
+
+  #iframe-desc {
+    padding-top:15px;
+    padding-bottom: 15px;
+  }
+
+  /* TACTILE*/
+
+  #tactile-img1 {
+    width: 750px;
+  }
+
+  #tactile-img2 {
+    width: 550px;
+  }
+
+  #tactile-img3 {
+    width: 550px;
+  }
+
+  #hind-banner {
+    width: 950px;
+  }
+
+  /* MENDAHAND*/
+
+  #logo-sketch-1 {
+    width: 550px;
+  }
+
+  #logo-sketch-2 {
+    width: 550px;
+  }
+
+  #card-sketch-1 {
+    width: 350px;
+  }
+
+  #card-sketch-2 {
+    width: 350px;
+  }
+
+  #card-sketch-3 {
+    width: 350px;
+  }
+
+  #merch-sketch1 {
+    width: 500px;
+  }
+
+  #merch-sketch2 {
+    width: 500px;
+  }
+
+  /* HORSETOOTH HOT SAUCE */
+
+  #original-logo {
+    width: 400px;
+  }
+
+  #original-label {
+    width: 800px;
+  }
+
+
+
+
+
+
+
+  /* ----------------------------- MEDIA-VIDEO CSS -------------------------------*/
+
+  .video-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 15px;
+    max-width: 90%;
+  }
+
+  .video-gallery {
+    width: 775px;
+    height: 515px;
+    margin: 0 auto;
+    padding: 30px;
+    object-fit: contain;
+  }
+
+
+  /* ----------------------------- MEDIA-ARTWORK CSS -------------------------------*/
+
+  .artwork-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 15px;
+    max-width: 90%;
+  }
+
+  .artwork-img {
+    width: 550px;
+    margin: 15px;
+    object-fit: contain;
+  }
+
+  .artwork-hr {
+    border-color: #44344f;
+    border-width: 8px;
+    border-radius: 8px;
+    -webkit-filter: blur(4px);
+    opacity: 80%;
+  }
+
+
+
+
+
+
+
+
+
+  /* ----------------------------- BIOGRAPHY CSS -------------------------------*/
+
+
+  .bio-container {
+    height: 70%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .my-picture img {
+    margin: 0 auto;
+    float: left;
+    max-width: 300px;
+  }
+
+  .bioh2 {
+    float: left;
+    color: white;
+    font-family: CamptonBold;
+    font-size: 36px;
+    margin: 0 auto;
+    padding-left: 50px;
+  }
+
+  .bio-text p {
+    float: left;
+    color: white;
+    font-family: CamptonBook;
+    font-size: 20px;
+    margin: 0 auto;
+    padding-left: 50px;
+    padding-top: 50px;
+  }
+
+  .cv-container {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+
+
+
+
+
+
+
 
 
 

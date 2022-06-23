@@ -392,10 +392,10 @@
   }
 
   .issu-embed {
-    position: absolute;
+    position: relative;
     border: none;
-    width:80%;
-    height: 100%;
+    width:1200px;
+    height: 800px;
     padding: 20px;
 
   }
@@ -595,17 +595,6 @@
     align-items: center;
     justify-content: center;
   }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
