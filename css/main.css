@@ -1,70 +1,72 @@
+
+/* ---------------------------- FONTS ------------------------------*/
+
+@font-face {
+  src: url(../fonts/campton/CamptonBlack.otf);
+  font-family: CamptonBlack;
+}
+
+@font-face {
+  src: url(../fonts/campton/CamptonBold.otf);
+  font-family: CamptonBold;
+}
+
+@font-face {
+  src: url(../fonts/campton/CamptonMedium.otf);
+  font-family: CamptonMedium;
+}
+
+@font-face {
+  src: url(../fonts/campton/CamptonMediumItalic.otf);
+  font-family: CamptonMediumItalic;
+}
+
+@font-face {
+  src: url(../fonts/campton/CamptonBook.otf);
+  font-family: CamptonBook;
+}
+
+@font-face {
+  src: url(../fonts/campton/CamptonLight.otf);
+  font-family: CamptonLight;
+}
+
+/* ------------------------ BACKGROUNDS ---------------------------*/
+
+#index-bkg {
+  background-image: url('../img/index-bkg.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  }
+
+#gallery-bkg {
+  background-image: url('../img/gallery-bkg.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  }
+
+#media-bkg {
+  background-image: url('../img/media-bkg.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  }
+
+#projects-bkg-clicked {
+  background-image: url('../img/media-bkg-clicked.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  }
+
+#bio-bkg {
+  background-image: url('../img/bio-bkg.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  }
+
+
 @media screen and (min-width: 481px) {
 
-  /* ----------------------------- FONT FACE -------------------------------*/
-
-  @font-face {
-    src: url(../fonts/campton/CamptonBlack.otf);
-    font-family: CamptonBlack;
-  }
-
-  @font-face {
-    src: url(../fonts/campton/CamptonBold.otf);
-    font-family: CamptonBold;
-  }
-
-  @font-face {
-    src: url(../fonts/campton/CamptonMedium.otf);
-    font-family: CamptonMedium;
-  }
-
-  @font-face {
-    src: url(../fonts/campton/CamptonMediumItalic.otf);
-    font-family: CamptonMediumItalic;
-  }
-
-  @font-face {
-    src: url(../fonts/campton/CamptonBook.otf);
-    font-family: CamptonBook;
-  }
-
-  @font-face {
-    src: url(../fonts/campton/CamptonLight.otf);
-    font-family: CamptonLight;
-  }
-
-  /* ----------------------------- BACKGROUNDS -------------------------------*/
-
-  #index-bkg {
-    background-image: url('../img/index-bkg.jpg');
-    background-attachment: fixed;
-    background-size: cover;
-    }
-
-  #gallery-bkg {
-    background-image: url('../img/gallery-bkg.jpg');
-    background-attachment: fixed;
-    background-size: cover;
-    }
-
-  #media-bkg {
-    background-image: url('../img/media-bkg.jpg');
-    background-attachment: fixed;
-    background-size: cover;
-    }
-
-  #projects-bkg-clicked {
-    background-image: url('../img/media-bkg-clicked.jpg');
-    background-attachment: fixed;
-    background-size: cover;
-    }
-
-  #bio-bkg {
-    background-image: url('../img/bio-bkg.jpg');
-    background-attachment: fixed;
-    background-size: cover;
-    }
-
-  /* --------------------------- SITEWIDE CSS -------------------------------*/
+  /* ------------------------ SITEWIDE -------------------------*/
 
   html, body {
       height: 100%;
@@ -104,8 +106,7 @@
     padding-top: 8px;
   }
 
-  /* ----------------------------- INDEX CSS -------------------------------*/
-
+  /* -------------------------- INDEX ----------------------------*/
 
   .index-container {
       height: 100%;
@@ -137,8 +138,7 @@
     color: #44344f;
   }
 
-
-  /* ----------------------------- GALLERY CSS -------------------------------*/
+  /* ----------------------------- GALLERY -------------------------------*/
 
   .gallery-container {
     display: flex;
@@ -494,11 +494,6 @@
   }
 
 
-
-
-
-
-
   /* ----------------------------- MEDIA-VIDEO CSS -------------------------------*/
 
   .video-container {
@@ -517,7 +512,6 @@
     padding: 30px;
     object-fit: contain;
   }
-
 
   /* ----------------------------- MEDIA-ARTWORK CSS -------------------------------*/
 
@@ -544,16 +538,7 @@
     opacity: 80%;
   }
 
-
-
-
-
-
-
-
-
   /* ----------------------------- BIOGRAPHY CSS -------------------------------*/
-
 
   .bio-container {
     height: 70%;
@@ -596,8 +581,6 @@
     align-items: center;
     justify-content: center;
   }
-
-
 
 
 }
