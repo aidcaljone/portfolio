@@ -404,8 +404,11 @@
 
   /* MULBERRYST*/
 
-  #final-sign {
+  .project-img-large {
     width: 650px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    object-fit: contain;
   }
 
   #mulberry-inspo {
