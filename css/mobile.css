@@ -1,4 +1,4 @@
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 480px) {
 
 
   /* ----------------------------- FONT FACE -------------------------------*/
@@ -127,7 +127,7 @@
 
   .menu-item a {
     font-family: CamptonBlack;
-    font-size: 60px;
+    font-size: 200px;
     text-shadow: 2px 2px 5px #00000033;
     text-decoration: none;
     margin: 0 auto;
