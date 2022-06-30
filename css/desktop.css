@@ -1,9 +1,9 @@
 
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 481px) {
 
 
-  /* ------------------------ SITEWIDE ----------------------------*/
+  /* ------------------------ SITEWIDE -------------------------*/
 
 
   .center-button {
@@ -11,12 +11,12 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
-    padding: 15px;
+    padding: 20px;
   }
 
   .back-button-white {
     font-family: CamptonBlack;
-    font-size: 30px;
+    font-size: 36px;
     color: white;
     text-decoration: none;
     padding: 0;
@@ -31,13 +31,12 @@
     color: white;
     text-align: center;
     font-family: CamptonBold;
-    font-size: 20px;
+    font-size: 25px;
     margin: 0 auto;
     padding-top: 8px;
   }
 
-  /* ------------------------- INDEX CSS --------------------------*/
-
+  /* -------------------------- INDEX ----------------------------*/
 
   .index-container {
       height: 100%;
@@ -53,12 +52,12 @@
     text-shadow: 2px 2px 5px #00000033;
     text-align: center;
     justify-content: center;
-    padding: 25px;
+    padding: 50px;
   }
 
   .menu-item a {
     font-family: CamptonBlack;
-    font-size: 50px;
+    font-size: 70px;
     text-shadow: 2px 2px 5px #00000033;
     text-decoration: none;
     margin: 0 auto;
@@ -69,8 +68,7 @@
     color: #44344f;
   }
 
-
-  /* ----------------------------- GALLERY CSS -------------------------------*/
+  /* ----------------------------- GALLERY -------------------------------*/
 
   .gallery-container {
     display: flex;
@@ -82,10 +80,11 @@
   }
 
   .gallery-img {
-    width: 150px;
-    margin: 10px;
+    width: 600px;
+    margin: 20px;
     object-fit: contain;
   }
+
 
   .gallery-container-phone {
     display: flex;
@@ -93,27 +92,29 @@
     justify-content: center;
     margin: 0 auto;
     padding-top: 15px;
-    max-width: 90%;
+    max-width: 80%;
   }
 
   .gallery-phone {
-    width: 90px;
-    margin: 10px;
+    width: 380px;
+    margin: 20px;
     object-fit: contain;
   }
 
   .gallery-hr {
     border-color: #44344f;
-    border-width: 6px;
-    border-radius: 6px;
+    border-width: 8px;
+    border-radius: 8px;
     -webkit-filter: blur(4px);
     opacity: 80%;
   }
 
+
+
   /* ----------------------------- MEDIA CSS -------------------------------*/
 
   .media-container {
-    width: 10%;
+    width: 50%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -124,7 +125,7 @@
 
   .media-item {
     margin: 0 auto;
-    padding: 0px;
+    padding: 5px;
   }
 
   .media-item a {
@@ -138,14 +139,15 @@
   }
 
   .media-img {
-    width: 300px;
-    margin-top: 20px;
-    margin-bottom:5px;
+    width: 500px;
+    margin-top: 30px;
+    margin-bottom:10px;
     object-fit: contain;
   }
 
 
-  /* ----------------------------- MEDIA-PROJECTS -------------------------------*/
+
+  /* ----------------------------- MEDIA-PROJECTS CSS -------------------------------*/
 
   .media-design-container {
     display: flex;
@@ -157,7 +159,7 @@
   }
 
   .media-design-item {
-    padding: 15px;
+    padding: 20px;
   }
 
   .media-design-item a{
@@ -171,7 +173,7 @@
   }
 
   .media-design-img {
-    width: 325px;
+    width: 350px;
     margin: 0 auto;
     object-fit: contain;
   }
@@ -190,25 +192,25 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 25px;
     max-width: 90%;
   }
 
   .media-header {
     font-family: CamptonBold;
-    font-size: 28px;
+    font-size: 36px;
     color: white;
   }
 
 
-  /* ---------------------- MEDIA-PROJECTS CLICKED ------------------------*/
+  /* ---------------------- MEDIA-PROJECT-CLICKED CSS ------------------------*/
 
   .project-title-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top:50px;
     max-width: 90%;
   }
 
@@ -225,15 +227,13 @@
     font-family: CamptonBold;
     font-size: 32px;
     color: white;
-    text-align: center;
   }
 
   .project-subheader {
     font-family: CamptonMedium;
-    font-size: 20px;
+    font-size: 24px;
     color: white;
     text-align: center;
-    max-width: 85%;
   }
 
   .project-text {
@@ -246,7 +246,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     margin-top: 0 auto;
     margin-bottom: auto;
@@ -257,8 +257,7 @@
   }
 
   .project-img {
-    width: 50px;
-    height: 50px;
+    width: 450px;
     margin-top: 30px;
     margin-bottom: 10px;
     object-fit: contain;
@@ -330,22 +329,102 @@
 
   }
 
-  .project-img-large {
-    width: 100%;
-    margin-top: 10px;
-    margin-bottom: 5px;
-    object-fit: contain;
-  }
+  /* ---------------------- SIZING ID ------------------------*/
 
-  .project-img-vertical {
-    width: 100px;
-    margin-top: 25px;
+  /* MULBERRYST*/
+
+  .project-img-large {
+    width: 650px;
+    margin-top: 30px;
     margin-bottom: 10px;
     object-fit: contain;
   }
 
+  #mulberry-inspo {
+    width: 450px;
+  }
 
-  /* ----------------------------- MEDIA-VIDEO -------------------------------*/
+  /* PEBBLEPARK*/
+
+  #sketch-inspo {
+    width:377px;
+  }
+
+  #final-cover {
+    width: 550px;
+  }
+
+  #final-song {
+    width: 825px;
+    height: 250px;
+    padding-top:40px;
+  }
+
+  #iframe-desc {
+    padding-top:15px;
+    padding-bottom: 15px;
+  }
+
+  /* TACTILE*/
+
+  #tactile-img1 {
+    width: 750px;
+  }
+
+  #tactile-img2 {
+    width: 550px;
+  }
+
+  #tactile-img3 {
+    width: 550px;
+  }
+
+  #hind-banner {
+    width: 950px;
+  }
+
+  /* MENDAHAND*/
+
+  #logo-sketch-1 {
+    width: 550px;
+  }
+
+  #logo-sketch-2 {
+    width: 550px;
+  }
+
+  #card-sketch-1 {
+    width: 350px;
+  }
+
+  #card-sketch-2 {
+    width: 350px;
+  }
+
+  #card-sketch-3 {
+    width: 350px;
+  }
+
+  #merch-sketch1 {
+    width: 500px;
+  }
+
+  #merch-sketch2 {
+    width: 500px;
+  }
+
+  /* HORSETOOTH HOT SAUCE */
+
+  #original-logo {
+    width: 400px;
+  }
+
+  #original-label {
+    width: 800px;
+  }
+
+
+  /* ----------------------------- MEDIA-VIDEO CSS -------------------------------*/
 
   .video-container {
     display: flex;
@@ -357,15 +436,14 @@
   }
 
   .video-gallery {
-    width: 300px;
-    height: 200px;
+    width: 775px;
+    height: 515px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 30px;
     object-fit: contain;
   }
 
-
-  /* -------------------------- MEDIA-ARTWORK ----------------------------*/
+  /* ----------------------------- MEDIA-ARTWORK CSS -------------------------------*/
 
   .artwork-container {
     display: flex;
@@ -390,8 +468,7 @@
     opacity: 80%;
   }
 
-  /* ----------------------------- BIOGRAPHY -------------------------------*/
-
+  /* ----------------------------- BIOGRAPHY CSS -------------------------------*/
 
   .bio-container {
     height: 70%;
@@ -434,27 +511,6 @@
     align-items: center;
     justify-content: center;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 }
