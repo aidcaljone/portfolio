@@ -153,7 +153,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 80%;
+    max-width: 60%;
     margin: 0 auto;
     margin-top: 0 auto;
   }
@@ -219,7 +219,7 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
-    max-width: 90%;
+    max-width: 50%;
     padding: 0;
   }
 
@@ -326,34 +326,13 @@
     width:1200px;
     height: 800px;
     padding: 20px;
-
   }
-
-
-
-  /* ---------------------- SIZING ID ------------------------*/
-
-  /* MULBERRYST*/
 
   .project-img-large {
     width: 650px;
     margin-top: 30px;
     margin-bottom: 10px;
     object-fit: contain;
-  }
-
-  #mulberry-inspo {
-    width: 450px;
-  }
-
-  /* PEBBLEPARK*/
-
-  #sketch-inspo {
-    width:377px;
-  }
-
-  #final-cover {
-    width: 550px;
   }
 
   #final-song {
@@ -367,19 +346,10 @@
     padding-bottom: 15px;
   }
 
-  /* TACTILE*/
 
-  #tactile-img1 {
-    width: 750px;
-  }
 
-  #tactile-img2 {
-    width: 550px;
-  }
+  /* ---------------------- SIZING ID ------------------------*/
 
-  #tactile-img3 {
-    width: 550px;
-  }
 
   #hind-banner {
     width: 950px;
@@ -438,7 +408,7 @@
   }
 
   .video-gallery {
-    width: 775px;
+    width: 750px;
     height: 515px;
     margin: 0 auto;
     padding: 30px;
