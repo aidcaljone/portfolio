@@ -157,7 +157,7 @@
   }
 
   .media-design-item {
-    padding: 15px;
+    padding: 10px;
   }
 
   .media-design-item a{
@@ -253,7 +253,7 @@
   }
 
   .project-img-item {
-    padding: 20px;
+    padding: 10px;
   }
 
   .project-img {
@@ -332,8 +332,8 @@
 
   .project-img-large {
     width: 100%;
-    margin-top: 10px;
-    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 0px;
     object-fit: contain;
   }
 
