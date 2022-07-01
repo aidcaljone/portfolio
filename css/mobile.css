@@ -16,7 +16,7 @@
 
   .back-button-white {
     font-family: CamptonBlack;
-    font-size: 30px;
+    font-size: 10px;
     color: white;
     text-decoration: none;
     padding: 0;
@@ -58,7 +58,7 @@
 
   .menu-item a {
     font-family: CamptonBlack;
-    font-size: 300px;
+    font-size: 200px;
     text-shadow: 2px 2px 5px #00000033;
     text-decoration: none;
     margin: 0 auto;
