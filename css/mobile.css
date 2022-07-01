@@ -2,6 +2,13 @@
 
 @media screen and (max-width: 480px) {
 
+  #gallery-bkg {
+    background-image: url('../img/gallery-bkg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+
 
   /* ------------------------ SITEWIDE ----------------------------*/
 
@@ -16,7 +23,7 @@
 
   .back-button-white {
     font-family: CamptonBlack;
-    font-size: 10px;
+    font-size: 40px;
     color: white;
     text-decoration: none;
     padding: 0;
@@ -36,7 +43,7 @@
     padding-top: 8px;
   }
 
-  /* ------------------------- INDEX CSS --------------------------*/
+  /* ------------------------- INDEX --------------------------*/
 
 
   .index-container {
@@ -58,7 +65,7 @@
 
   .menu-item a {
     font-family: CamptonBlack;
-    font-size: 200px;
+    font-size: 300px;
     text-shadow: 2px 2px 5px #00000033;
     text-decoration: none;
     margin: 0 auto;
