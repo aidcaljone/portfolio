@@ -1,5 +1,4 @@
 
-
 @media all and (max-width: 480px) {
 
   html, body {
@@ -10,8 +9,7 @@
        margin: 0;
    }
 
-  /* ---------------------------- FONTS ------------------------------*/
-
+/*FONTS*/
 
   @font-face {
     src: url(../fonts/campton/CamptonBlack.otf);
@@ -43,9 +41,7 @@
     font-family: CamptonLight;
   }
 
-
-  /* ------------------------ BACKGROUNDS ---------------------------*/
-
+/*BACKGROUNDS*/
 
   #index-bkg {
     background-image: url('../img/index-bkg.jpg');
@@ -77,9 +73,7 @@
     background-size: cover;
     }
 
-
-  /* ------------------------ SITEWIDE ----------------------------*/
-
+/*SITEWIDE*/
 
   .center-button {
     display: flex;
@@ -111,16 +105,15 @@
     padding-top: 8px;
   }
 
-  /* ------------------------- INDEX --------------------------*/
-
+/*INDEX*/
 
   .index-container {
-      height: 100%;
-      padding: 0;
-      margin: 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .menu-item {
@@ -145,8 +138,7 @@
     color: #44344f;
   }
 
-
-  /* ----------------------------- GALLERY CSS -------------------------------*/
+/*GALLERY*/
 
   .gallery-container {
     display: flex;
@@ -186,7 +178,7 @@
     opacity: 80%;
   }
 
-  /* ----------------------------- MEDIA CSS -------------------------------*/
+/*MEDIA*/
 
   .media-container {
     width: 10%;
@@ -220,8 +212,7 @@
     object-fit: contain;
   }
 
-
-  /* ----------------------------- MEDIA-PROJECTS -------------------------------*/
+/*MEDIA-PROJECTS*/
 
   .media-design-container {
     display: flex;
@@ -276,8 +267,7 @@
     color: white;
   }
 
-
-  /* ---------------------- MEDIA-PROJECTS CLICKED ------------------------*/
+/*MEDIA-PROJECTS CLICKED*/
 
   .project-title-container {
     display: flex;
@@ -403,7 +393,6 @@
     width:1200px;
     height: 800px;
     padding: 20px;
-
   }
 
   .project-img-large {
@@ -431,8 +420,7 @@
     padding-bottom: 15px;
   }
 
-
-  /* ----------------------------- MEDIA-VIDEO -------------------------------*/
+/*MEDIA-VIDEO*/
 
   .video-container {
     display: flex;
@@ -451,8 +439,7 @@
     object-fit: contain;
   }
 
-
-  /* -------------------------- MEDIA-ARTWORK ----------------------------*/
+/*MEDIA-ARTWORK*/
 
   .artwork-container {
     display: flex;
@@ -477,8 +464,7 @@
     opacity: 80%;
   }
 
-  /* ----------------------------- BIOGRAPHY -------------------------------*/
-
+/*BIOGRAPHY*/
 
   .bio-container {
     height: 70%;
@@ -521,27 +507,5 @@
     align-items: center;
     justify-content: center;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
