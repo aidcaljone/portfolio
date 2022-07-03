@@ -70,26 +70,6 @@
     }
 
 
-    /* ------------------------ SITE WIDE ---------------------------*/
-
-
-    html, body {
-        height: 100%;
-    }
-
-    body {
-        margin: 0;
-    }
-
-
-  #gallery-bkg {
-    background-image: url('../img/gallery-bkg.jpg');
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    }
-
-
   /* ------------------------ SITEWIDE ----------------------------*/
 
 
