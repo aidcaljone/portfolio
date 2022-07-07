@@ -351,7 +351,7 @@
   .surreal-gallery {
     width: 100%;
     margin: 0 auto;
-    padding: 30px;
+    padding: 20px;
     object-fit: contain;
   }
 
@@ -402,7 +402,7 @@
   }
 
   .project-img-medium {
-    width: 500px;
+    width: 100%;
     margin-top: 30px;
     margin-bottom: 10px;
     object-fit: contain;
@@ -410,8 +410,8 @@
 
   .project-img-vertical {
     width: 100px;
-    margin-top: 25px;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 0px;
     object-fit: contain;
   }
 
