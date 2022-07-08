@@ -140,6 +140,10 @@
 
 /*GALLERY*/
 
+#roam-banner {
+  width: 600px;
+}
+
   .gallery-container {
     display: flex;
     flex-wrap: wrap;
@@ -389,8 +393,8 @@
   .issu-embed {
     position: relative;
     border: none;
-    width:1200px;
-    height: 800px;
+    width: 90%;
+    height: 300px;
     padding: 20px;
   }
 
@@ -403,7 +407,7 @@
 
   .project-img-medium {
     width: 100%;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 10px;
     object-fit: contain;
   }
