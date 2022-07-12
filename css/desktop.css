@@ -383,10 +383,11 @@
   }
 
   .issu-embed {
+    position: relative;
     border: none;
-    width:700px;
-    height: 800px;
-    padding: 20px;
+    width:1000px;
+    height: 600px;
+    padding: 40px;
   }
 
   .project-img-large {
@@ -472,10 +473,11 @@
   }
 
   .video-gallery {
-    width: 750px;
-    height: 515px;
+    width: 900px;
+    height: 550px;
     margin: 0 auto;
-    padding: 30px;
+    padding: 50px;
+    padding-top: 80px;
     object-fit: contain;
   }
 
