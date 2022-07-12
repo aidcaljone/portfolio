@@ -43,7 +43,7 @@
 
 /*BACKGROUNDS*/
 
-  #index-bkg {
+  .index-bkg {
     background-image: url('../img/index-bkg.jpg');
     background-attachment: fixed;
     background-size: cover;
