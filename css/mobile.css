@@ -90,6 +90,8 @@
     text-decoration: none;
     padding: 0;
     margin: 0 auto;
+    padding-top: 10px
+    padding-bottom: 5px
   }
 
   .back-button-white:hover {
@@ -100,7 +102,7 @@
     color: white;
     text-align: center;
     font-family: CamptonBold;
-    font-size: 20px;
+    font-size: 18px;
     margin: 0 auto;
     padding-top: 8px;
   }
@@ -228,7 +230,7 @@
   }
 
   .media-design-item {
-    padding: 10px;
+    padding: 15px;
   }
 
   .media-design-item a{
@@ -267,8 +269,11 @@
 
   .media-header {
     font-family: CamptonBold;
-    font-size: 30px;
+    font-size: 32px;
     color: white;
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 10px;
   }
 
 /*MEDIA-PROJECTS CLICKED*/
