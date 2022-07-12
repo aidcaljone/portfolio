@@ -100,9 +100,10 @@
     color: white;
     text-align: center;
     font-family: CamptonBold;
-    font-size: 25px;
+    font-size: 24px;
     margin: 0 auto;
     padding-top: 8px;
+    max-width: 200px;
   }
 
 /*INDEX*/
@@ -175,6 +176,7 @@
     border-radius: 8px;
     -webkit-filter: blur(4px);
     opacity: 80%;
+    width: 70%;
   }
 
 /*MEDIA*/
@@ -219,7 +221,7 @@
     justify-content: center;
     max-width: 60%;
     margin: 0 auto;
-    margin-top: 0 auto;
+    padding-bottom: 40px;
   }
 
   .media-design-item {
@@ -262,7 +264,7 @@
 
   .media-header {
     font-family: CamptonBold;
-    font-size: 36px;
+    font-size: 40px;
     color: white;
   }
 
@@ -494,7 +496,11 @@
 
   .artwork-img {
     width: 550px;
-    margin: 15px;
+    margin: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+
     object-fit: contain;
   }
 
