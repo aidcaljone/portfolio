@@ -162,7 +162,7 @@
     justify-content: center;
     margin: 0 auto;
     padding-top: 15px;
-    max-width: 80%;
+    max-width: 100%;
   }
 
   .gallery-phone {
@@ -220,7 +220,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 60%;
+    max-width: 70%;
     margin: 0 auto;
     padding-bottom: 40px;
   }
@@ -240,7 +240,7 @@
   }
 
   .media-design-img {
-    width: 350px;
+    width: 400px;
     margin: 0 auto;
     object-fit: contain;
   }
