@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="photography gallery">
+    <meta name="keywords" content="photography, film, iPhone, DSLR">
+    <meta name="author" content="Aidan Jones">
+    <link rel="stylesheet" href="./css/desktop.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <script defer src="./scripts/main.js" charset="utf-8"></script>
+    <title>gallery</title>
+    <title></title>
+  </head>
+  <body>
+
+  </body>
+</html>
+
+<h2 style="text-align:center">Modal Image Gallery</h2>
+<div class="row">
+  <div class="column">
+    <img src="placeholder.png" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="placeholder.png" style="width:100%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="placeholder.png" style="width:100%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+  </div>
+  <div class="column">
+    <img src="placeholder.png" style="width:100%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+  </div>
+</div>
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="placeholder.png" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="placeholder.png" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="placeholder.png" style="width:100%">
+    </div>
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="placeholder.png" style="width:100%">
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="placeholder.png" style="width:100%" onclick="currentSlide(1)" alt="Sample image 1">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="placeholder.png" style="width:100%" onclick="currentSlide(2)" alt="Sample image 2">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="placeholder.png" style="width:100%" onclick="currentSlide(3)" alt="Sample image 3">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="placeholder.png" style="width:100%" onclick="currentSlide(4)" alt="Sample image 4">
+    </div>
+  </div>
+</div>
