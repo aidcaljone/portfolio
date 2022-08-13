@@ -75,10 +75,6 @@
 
 /*SITEWIDE*/
 
-  .target {
-    background-color: black;
-  }
-
   .center-button {
     display: flex;
     flex-wrap: wrap;
