@@ -154,6 +154,7 @@
     width: 600px;
     margin: 20px;
     object-fit: contain;
+    target:"_blank";
   }
 
 
@@ -163,7 +164,7 @@
     justify-content: center;
     margin: 0 auto;
     padding-top: 15px;
-    max-width: 100%;
+    max-width: 90%;
   }
 
   .gallery-phone {
