@@ -351,9 +351,8 @@
   }
 
   .surreal-gallery {
-    max-width: 550px;
-    margin: 0 auto;
-    padding: 20px;
+    width: 600px;
+    margin: 20px;
     object-fit: contain;
   }
 
@@ -391,8 +390,8 @@
   .issu-embed {
     position: relative;
     border: none;
-    width:1000px;
-    height: 600px;
+    width:900px;
+    height: 1100px;
     padding: 40px;
   }
 
@@ -530,7 +529,7 @@
   .my-picture img {
     margin: 0 auto;
     float: left;
-    max-width: 300px;
+    max-width: 350px;
   }
 
   .bioh2 {
@@ -549,7 +548,7 @@
     font-size: 20px;
     margin: 0 auto;
     padding-left: 50px;
-    padding-top: 50px;
+    padding-top: 20px;
   }
 
   .cv-container {
@@ -557,9 +556,8 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
-    padding-top: 15px;
     max-width: 90%;
-    padding-bottom: 50px;
+    padding-bottom: 25px;
 
   }
 
