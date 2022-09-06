@@ -80,7 +80,7 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
-    padding: 20px;
+    padding: 30px;
   }
 
   .back-button-white {
@@ -323,7 +323,7 @@
   }
 
   .project-img-item {
-    padding: 20px;
+    padding: 10px;
   }
 
   .project-img {
@@ -397,7 +397,7 @@
   }
 
   .project-img-large {
-    width: 550px;
+    width: 600px;
     margin-top: 30px;
     margin-bottom: 10px;
     object-fit: contain;
