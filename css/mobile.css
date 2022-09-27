@@ -143,7 +143,7 @@
 /*GALLERY*/
 
 .gallery {
-  margin: 10px 50px;
+  margin: 5px 5px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -153,8 +153,8 @@
 .gallery img {
   justify-content: center;
   transition: 1s;
-  padding: 25px;
-  width: 10px;
+  padding: 15px;
+  width: 175px;
 }
 
 .gallery img:hover {
