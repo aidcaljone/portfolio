@@ -142,10 +142,27 @@
 
 /*GALLERY*/
 
-#roam-banner {
-  width: 600px;
+.gallery {
+  margin: 10px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
 }
 
+.gallery img {
+  justify-content: center;
+  transition: 1s;
+  padding: 25px;
+  width: 400px;
+}
+
+.gallery img:hover {
+  filter:grayscale(100%);
+  transform: scale(1.1);
+}
+
+/*
   .gallery-container {
     display: flex;
     flex-wrap: wrap;
@@ -183,6 +200,8 @@
     -webkit-filter: blur(4px);
     opacity: 80%;
   }
+  
+*/
 
 /*MEDIA*/
 
@@ -277,6 +296,10 @@
   }
 
 /*MEDIA-PROJECTS CLICKED*/
+
+#roam-banner {
+  width: 600px;
+}
 
   .project-title-container {
     display: flex;
