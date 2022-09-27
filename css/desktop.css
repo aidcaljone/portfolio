@@ -141,6 +141,26 @@
 
 /*GALLERY*/
 
+  .gallery {
+    margin: 10px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+  }
+
+  .gallery img {
+    justify-content: center;
+    transition: 1s;
+    padding: 25px;
+    width: 400px;
+  }
+
+  .gallery img:hover {
+    filter:grayscale(100%);
+    transform: scale(1.1);
+  }
+
 
 
 /*
