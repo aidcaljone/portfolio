@@ -154,7 +154,7 @@
   justify-content: center;
   transition: 1s;
   padding: 25px;
-  width: 400px;
+  width: 10px;
 }
 
 .gallery img:hover {
@@ -200,7 +200,7 @@
     -webkit-filter: blur(4px);
     opacity: 80%;
   }
-  
+
 */
 
 /*MEDIA*/
