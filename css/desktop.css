@@ -158,7 +158,7 @@
   }
 
   .gallery-phone img:hover {
-    filter:#44344f(50%);
+    filter:grayscale(100%);
     transform: scale(1.1);
   }
 
