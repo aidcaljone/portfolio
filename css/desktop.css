@@ -1,68 +1,55 @@
 @media all and (min-width: 481px) {
-
   html, body {
        height: 100%;
    }
-
    body {
      margin: 0;
    }
-
 /*FONTS*/
   @font-face {
     src: url(../fonts/campton/CamptonBlack.otf);
     font-family: CamptonBlack;
   }
-
   @font-face {
     src: url(../fonts/campton/CamptonBold.otf);
     font-family: CamptonBold;
   }
-
   @font-face {
     src: url(../fonts/campton/CamptonBoldItalic.otf);
     font-family: CamptonBoldItalic;
   }
-
   @font-face {
     src: url(../fonts/campton/CamptonMedium.otf);
     font-family: CamptonMedium;
   }
-
   @font-face {
     src: url(../fonts/campton/CamptonMediumItalic.otf);
     font-family: CamptonMediumItalic;
   }
-
   @font-face {
     src: url(../fonts/campton/CamptonBook.otf);
     font-family: CamptonBook;
   }
-
   @font-face {
     src: url(../fonts/campton/CamptonLight.otf);
     font-family: CamptonLight;
   }
-
 /*BACKGROUNDS*/
   .index-bkg {
     background-image: url('../img/index-bkg.jpg');
     background-attachment: fixed;
     background-size: cover;
     }
-
   #gallery-bkg {
     background-image: url('../img/gallery-bkg.jpg');
     background-attachment: fixed;
     background-size: cover;
     }
-
   #media-bkg {
     background-image: url('../img/media-bkg.jpg');
     background-attachment: fixed;
     background-size: cover;
     }
-
   #projects-bkg-clicked {
     background-image: url('../img/media-bkg-clicked.jpg');
     background-attachment: fixed;
@@ -83,7 +70,6 @@
     margin: 0 auto;
     padding: 30px;
   }
-
   .back-button-white {
     font-family: CamptonBlack;
     font-size: 42px;
@@ -93,11 +79,9 @@
     margin: 0 auto;
     padding-top: 5px;
   }
-
   .back-button-white:hover {
     color: #44344f;
   }
-
   .desc {
     color: white;
     text-align: center;
@@ -107,7 +91,9 @@
     padding-top: 8px;
     max-width: 200px;
   }
-
+  .desc a {
+    text-decoration: none;
+  }
 /*INDEX*/
   .index-container {
       height: 100%;
@@ -117,7 +103,6 @@
       align-items: center;
       justify-content: center;
   }
-
   .menu-item {
     font-family: CamptonBlack;
     text-shadow: 2px 2px 5px #00000033;
@@ -125,7 +110,6 @@
     justify-content: center;
     padding: 50px;
   }
-
   .menu-item a {
     font-family: CamptonBlack;
     font-size: 70px;
@@ -134,13 +118,11 @@
     margin: 0 auto;
     color: white;
   }
-
   .menu-item a:hover {
     color: #44344f;
   }
 
 /*GALLERY*/
-
   .gallery {
     margin: 10px 50px;
     display: flex;
@@ -179,8 +161,6 @@
     transform: scale(1.1);
   }
 
-
-
   .gallery-hr {
     border-color: #44344f;
     border-width: 8px;
@@ -190,79 +170,28 @@
     width: 70%;
   }
 
-/*
-  .gallery-container {
+  /*MEDIA*/
+  .media-menu {
+    margin: 10px 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 0 auto;
-    padding-top: 15px;
-    max-width: 100%;
-  }
-
-  .gallery-img {
-    width: 600px;
-    margin: 20px;
-    object-fit: contain;
-  }
-
-  .gallery-img:hover {
-    opacity: 70%;
-  }
-
-  .gallery-container-phone {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0 auto;
-    padding-top: 15px;
-    max-width: 90%;
-  }
-
-  .gallery-phone {
-    width: 380px;
-    margin: 20px;
-    object-fit: contain;
-  }
-
-  .gallery-phone:hover {
-    opacity: 70%;
-  }
-
-
-*/
-
-/*MEDIA*/
-  .media-container {
-    width: 50%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
     align-items: center;
+    margin-top:20%;
+    margin-bottom:20%;
+  }
+
+  .media-menu img {
     justify-content: center;
-    padding-bottom: 20px;
+    align-items: center;
+    transition: 1s;
+    padding: 25px;
+    width: 400px;
   }
 
-  .media-item {
-    margin: 0 auto;
-    padding: 5px;
-  }
-
-  .media-item a {
-    text-decoration: none;
-    padding: 0;
-    margin: 0 auto;
-  }
-
-  .media-item:hover {
-    opacity: 50%;
-  }
-
-  .media-img {
-    width: 450px;
-    margin-top: 30px;
-    margin-bottom:10px;
-    object-fit: contain;
+  .media-menu img:hover {
+    filter:grayscale(100%);
+    transform: scale(1.1);
   }
 
 /*MEDIA-PROJECTS*/
