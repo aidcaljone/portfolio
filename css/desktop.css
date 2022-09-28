@@ -83,6 +83,7 @@
     color: #44344f;
   }
   .desc {
+    text-decoration: none;
     color: white;
     text-align: center;
     font-family: CamptonBold;
