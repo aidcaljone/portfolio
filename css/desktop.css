@@ -276,7 +276,7 @@
     transform: scale(1.1);
   }
   .project-content-vertical {
-    margin: 50px 400px;
+    margin: 50px 300px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -288,7 +288,7 @@
     align-items: center;
     transition: 1s;
     padding: 25px;
-    width: 350px;
+    width: 400px;
   }
   .project-content-vertical a {
     text-decoration: none;
@@ -305,6 +305,9 @@
   }
   #mendahand-logos {
     margin: 10px 10px;
+  }
+  #mendahand-logos img{
+    width: 550px;
   }
 
 
