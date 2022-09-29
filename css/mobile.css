@@ -220,63 +220,35 @@
   transform: scale(1.1);
 }
 
-/*MEDIA-PROJECTS*/
+/*PROJECTS*/
+.projects {
+  margin: 20px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top:10%;
+  margin-bottom:10%;
+  text-decoration: none;
+}
 
-  .media-design-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 90%;
-    margin: 0 auto;
-    margin-top: 0 auto;
-  }
+.projects img {
+  justify-content: center;
+  align-items: center;
+  transition: 1s;
+  padding: 10px;
+  width: 250px;
+}
 
-  .media-design-item {
-    padding: 15px;
-  }
+.projects a {
+  text-decoration: none;
+}
 
-  .media-design-item a{
-    text-decoration: none;
-    padding: 0;
-    margin: 0 auto;
-  }
+.projects img:hover {
+  filter:grayscale(100%);
+  transform: scale(1.1);
+}
 
-  .media-design-item:hover {
-    opacity: 50%;
-  }
-
-  .media-design-img {
-    width: 325px;
-    margin: 0 auto;
-    object-fit: contain;
-  }
-
-  .desc-design {
-    color: white;
-    text-align: center;
-    font-family: CamptonMedium;
-    font-size: 25px;
-    padding: 0px;
-    margin: 0 auto;
-  }
-
-  .media-title-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0 auto;
-    margin-top: 10px;
-    max-width: 90%;
-  }
-
-  .media-header {
-    font-family: CamptonBold;
-    font-size: 32px;
-    color: white;
-    margin: 0 auto;
-    padding-top: 25px;
-    padding-bottom: 10px;
-  }
 
 /*MEDIA-PROJECTS CLICKED*/
 
