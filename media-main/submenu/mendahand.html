@@ -6,8 +6,10 @@
     <meta name="description" content="Free Web tutorials">
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <meta name="author" content="Aidan Jones">
-    <link rel="stylesheet" href="../../css/desktop.css">
-    <link rel="stylesheet" href="../../css/mobile.css">
+    <link rel="stylesheet" type='text/css' href="../../css/desktop.css">
+    <link rel="stylesheet" type='text/css' href="../../css/mobile.css">
+    <link rel="stylesheet" type='text/css' href="../../css/lightbox.min.css">
+    <script src="../../scripts/lightbox-plus-jquery.min.js"></script>
     <title>Mend-A-Hand</title>
   </head>
   <body id="projects-bkg-clicked">
@@ -24,20 +26,23 @@
         <img class="project-img-large" src="../../img/projects/mendahand/biglogo.png">
       </div>
     </div>
-      <div class="project-img-container">
-        <div class="project-img-item">
-          <img class="project-img-medium" src="../../img/projects/mendahand/card-sketch1.jpg">
-        </div>
-        <div class="project-img-item">
-          <img class="project-img-medium" src="../../img/projects/mendahand/card-sketch2.jpg">
-        </div>
-        <div class="project-img-item">
-          <img class="project-img-medium" src="../../img/projects/mendahand/card-sketch3.jpg">
-        </div>
-      </div>
-      <div class="project-text-container">
-        <h2 class="project-subheader">Sketches</h2>
-      </div>
+    <div class="project-text-container">
+      <h2 class="project-subheader">Sketches</h2>
+    </div>
+    <div class="project-content-vertical" id="mendahand-cards">
+      <a href="../../img/projects/mendahand/card-sketch1.jpg" data-lightbox="mygallery"><img src="../../img/projects/mendahand/card-sketch1.jpg"></a>
+      <a href="../../img/projects/mendahand/card-sketch2.jpg" data-lightbox="mygallery"><img src="../../img/projects/mendahand/card-sketch2.jpg"></a>
+      <a href="../../img/projects/mendahand/card-sketch3.jpg" data-lightbox="mygallery"><img src="../../img/projects/mendahand/card-sketch3.jpg"></a>
+    </div>
+    <div class="project-content-vertical" id="mendahand-logos">
+      <a href="../../img/projects/mendahand/iteration1.png" data-lightbox="mygallery"><img src="../../img/projects/mendahand/iteration1.png"></a>
+      <a href="../../img/projects/mendahand/iteration2.png" data-lightbox="mygallery"><img src="../../img/projects/mendahand/iteration2.png"></a>
+    </div>
+
+
+
+
+
       <div class="project-img-container">
         <div class="project-img-item">
           <img class="project-img-large" src="../../img/projects/mendahand/iteration1.png">
@@ -46,6 +51,7 @@
           <img class="project-img-large" src="../../img/projects/mendahand/iteration2.png">
         </div>
       </div>
+
       <div class="project-text-container">
         <h2 class="project-subheader">Digital Iterations</h2>
       </div>

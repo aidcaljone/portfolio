@@ -1,5 +1,4 @@
 @media all and (min-width: 481px) {
-
   html, body {
        height: 100%;
    }
@@ -133,38 +132,32 @@
     flex-wrap: wrap;
     justify-content: center;
   }
-
   .gallery img {
     justify-content: center;
     transition: 1s;
     padding: 25px;
     width: 400px;
   }
-
   .gallery img:hover {
     filter:grayscale(100%);
     transform: scale(1.1);
   }
-
   .gallery-phone {
     margin: 10px 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
-
   .gallery-phone img {
     justify-content: center;
     transition: 1s;
     padding: 25px;
     width: 300px;
   }
-
   .gallery-phone img:hover {
     filter:grayscale(100%);
     transform: scale(1.1);
   }
-
   .gallery-hr {
     border-color: #44344f;
     border-width: 8px;
@@ -185,7 +178,6 @@
     margin-bottom:30%;
     text-decoration: none;
   }
-
   .media-menu img {
     justify-content: center;
     align-items: center;
@@ -193,45 +185,40 @@
     padding: 25px;
     width: 400px;
   }
-
   .media-menu a {
     text-decoration: none;
   }
-
   .media-menu img:hover {
     filter:grayscale(100%);
     transform: scale(1.1);
   }
 
 /*PROJECTS*/
-.projects {
-  margin: 50px 300px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-}
 
-.projects img {
-  justify-content: center;
-  align-items: center;
-  transition: 1s;
-  padding: 20px;
-  width: 400px;
-}
+  .projects {
+    margin: 50px 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
+  .projects img {
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    padding: 20px;
+    width: 400px;
+  }
+  .projects a {
+    text-decoration: none;
+  }
+  .projects img:hover {
+    filter:grayscale(100%);
+    transform: scale(1.1);
+  }
 
-.projects a {
-  text-decoration: none;
-}
-
-.projects img:hover {
-  filter:grayscale(100%);
-  transform: scale(1.1);
-}
-
-/*MEDIA-PROJECT-CLICKED*/
-
+  /*PROJECT CONTENT*/
   .project-title-container {
     display: flex;
     flex-wrap: wrap;
@@ -240,7 +227,6 @@
     margin-top:50px;
     max-width: 90%;
   }
-
   .project-text-container {
     display: flex;
     flex-wrap: wrap;
@@ -249,13 +235,11 @@
     max-width: 50%;
     padding: 0;
   }
-
   .project-header {
     font-family: CamptonBold;
     font-size: 32px;
     color: white;
   }
-
   .project-subheader {
     max-width: 90%;
     font-family: CamptonMedium;
@@ -264,12 +248,66 @@
     text-align: center;
     text-justify: inter-word;
   }
-
   .project-text {
     font-family: CamptonBook;
     font-size: 18px;
     color: white;
   }
+  .project-content {
+    margin: 50px 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
+  .project-content img {
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    padding: 25px;
+    width: 700px;
+  }
+  .project-content a {
+    text-decoration: none;
+  }
+  .project-content img:hover {
+    filter:grayscale(100%);
+    transform: scale(1.1);
+  }
+  .project-content-vertical {
+    margin: 50px 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+  }
+  .project-content-vertical img {
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    padding: 25px;
+    width: 350px;
+  }
+  .project-content-vertical a {
+    text-decoration: none;
+  }
+  .project-content-vertical img:hover {
+    filter:grayscale(100%);
+    transform: scale(1.1);
+  }
+  #pebblepark {
+    margin: 10px 100px;
+  }
+  #mendahand-cards {
+    margin: 10px 100px;
+  }
+  #mendahand-logos {
+    margin: 10px 10px;
+  }
+
+
 
   .project-img-container {
     display: flex;
