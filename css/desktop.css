@@ -84,16 +84,37 @@
   .back-button-white:hover {
     color: #44344f;
   }
-  .desc {
+  .desc1 {
+    color: white;
+    text-align: center;
+    font-family: CamptonBold;
+    font-size: 30px;
+    margin: 0 auto;
+    max-width: 400px;
+  }
+  .desc1 a {
+    text-decoration: none;
+  }
+  .desc2 {
     color: white;
     text-align: center;
     font-family: CamptonBold;
     font-size: 24px;
     margin: 0 auto;
-    padding-top: 8px;
-    max-width: 200px;
+    max-width: 400px;
   }
-  .desc a {
+  .desc2 a {
+    text-decoration: none;
+  }
+  .desc3 {
+    color: white;
+    text-align: center;
+    font-family: CamptonMedium;
+    font-size: 24px;
+    margin: 0 auto;
+    max-width: 400px;
+  }
+  .desc3 a {
     text-decoration: none;
   }
 
@@ -115,7 +136,7 @@
   }
   .menu-item a {
     font-family: CamptonBlack;
-    font-size: 70px;
+    font-size: 80px;
     text-shadow: 2px 2px 5px #00000033;
     text-decoration: none;
     margin: 0 auto;
@@ -223,7 +244,7 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
-    margin-top:50px;
+    margin-top: 50px;
     max-width: 90%;
   }
   .project-text-container {
@@ -236,21 +257,15 @@
   }
   .project-header {
     font-family: CamptonBold;
-    font-size: 32px;
+    font-size: 36px;
     color: white;
   }
   .project-subheader {
-    max-width: 90%;
+    max-width: 60%;
     font-family: CamptonMedium;
-    font-size: 20px;
+    font-size: 24px;
     color: white;
     text-align: center;
-    text-justify: inter-word;
-  }
-  .project-text {
-    font-family: CamptonBook;
-    font-size: 18px;
-    color: white;
   }
   .project-content {
     margin: 50px 300px;
@@ -308,13 +323,6 @@
   #mendahand-logos img{
     width: 550px;
   }
-
-
-
-  
-
-
-
   .project-img-container {
     display: flex;
     flex-wrap: wrap;
@@ -324,18 +332,6 @@
     margin-top: 0 auto;
     margin-bottom: auto;
   }
-
-  .project-img-item {
-    padding: 10px;
-  }
-
-  .project-img {
-    width: 450px;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    object-fit: contain;
-  }
-
   .project-desc {
     color: white;
     text-align: center;
@@ -344,44 +340,24 @@
     padding: 0px;
     margin: 0 auto;
   }
-
-  .surreal-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0 auto;
-    margin-top: 15px;
-    max-width: 90%;
-  }
-
-  .surreal-gallery {
-    width: 600px;
-    margin: 20px;
-    object-fit: contain;
-  }
-
   .menu-weblink {
-    font-family: CamptonBlack;
     text-shadow: 2px 2px 5px #00000033;
     text-align: center;
     justify-content: center;
     padding: 10px;
     font-size: 5px;
   }
-
   .menu-weblink a {
-    font-family: CamptonBoldItalic;
+    font-family: CamptonMediumItalic;
     font-size: 30px;
     text-shadow: 2px 2px 5px #00000033;
     text-decoration: none;
     margin: 0 auto;
     color: white;
   }
-
   .menu-weblink a:hover {
     color: #44344f;
   }
-
   .issu-embed-div {
     display: flex;
     flex-wrap: wrap;
@@ -391,11 +367,10 @@
     margin-top: 0 auto;
     margin-bottom: auto;
   }
-
   .issu-embed {
     position: relative;
     border: none;
-    width:900px;
+    width:1200px;
     height: 700px;
     padding: 40px;
   }
@@ -406,38 +381,24 @@
     margin-bottom: 10px;
     object-fit: contain;
   }
-
-  .project-img-long {
-    width: 1020px;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    object-fit: contain;
-  }
-
-  .project-img-medium {
-    width: 500px;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    object-fit: contain;
-  }
-
   #final-song {
     width: 825px;
     height: 250px;
     padding-top:40px;
   }
-
   #iframe-desc {
     padding-top:15px;
     padding-bottom: 15px;
   }
-
   #recyclevid {
-    width:700px;
+    width:800px;
+  }
+  #recyclevid2 {
+    padding-top: 0px;
+    padding: 20px;
   }
 
-/*MEDIA-VIDEO*/
-
+/*VIDEO*/
   .video-container {
     display: flex;
     flex-wrap: wrap;
@@ -446,7 +407,6 @@
     margin-top: 15px;
     max-width: 90%;
   }
-
   .video-gallery {
     width: 900px;
     height: 550px;
@@ -457,7 +417,6 @@
   }
 
 /*MEDIA-ARTWORK*/
-
   .artwork-container {
     display: flex;
     flex-wrap: wrap;
@@ -466,7 +425,6 @@
     padding-top: 15px;
     max-width: 90%;
   }
-
   .artwork-img {
     width: 550px;
     margin: 20px;
@@ -475,16 +433,7 @@
     object-fit: contain;
   }
 
-  .artwork-hr {
-    border-color: #44344f;
-    border-width: 8px;
-    border-radius: 8px;
-    -webkit-filter: blur(4px);
-    opacity: 80%;
-  }
-
 /*BIOGRAPHY*/
-
   .bio-container {
     height: 70%;
     padding-top: 150px;
@@ -494,13 +443,11 @@
     align-items: center;
     justify-content: center;
   }
-
   .my-picture img {
     margin: 0 auto;
     float: left;
     max-width: 350px;
   }
-
   .bioh2 {
     float: left;
     color: white;
@@ -509,7 +456,6 @@
     margin: 0 auto;
     padding-left: 50px;
   }
-
   .bio-text p {
     float: left;
     color: white;
@@ -519,7 +465,6 @@
     padding-left: 50px;
     padding-top: 20px;
   }
-
   .cv-container {
     display: flex;
     flex-wrap: wrap;
@@ -527,12 +472,10 @@
     margin: 0 auto;
     max-width: 90%;
     padding-bottom: 25px;
-
   }
   .cv-pdf {
     width: 50%;
     height: 915px;
     justify-content: center;
   }
-
 }
