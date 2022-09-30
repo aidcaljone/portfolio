@@ -73,23 +73,49 @@
   }
   .back-button-white {
     font-family: CamptonBlack;
-    font-size: 40px;
+    font-size: 36px;
     color: white;
     text-decoration: none;
     padding: 0;
     margin: 0 auto;
-    padding-top: 10px;
+    padding-top: 0px;
   }
   .back-button-white:hover {
     color: #44344f;
   }
-  .desc {
+  .desc1 {
+    color: white;
+    text-align: center;
+    font-family: CamptonBold;
+    font-size: 24px;
+    margin: 0 auto;
+    max-width: 400px;
+    padding: 5px;
+  }
+  .desc1 a {
+    text-decoration: none;
+  }
+  .desc2 {
     color: white;
     text-align: center;
     font-family: CamptonBold;
     font-size: 18px;
     margin: 0 auto;
-    padding-top: 8px;
+    max-width: 400px;
+  }
+  .desc2 a {
+    text-decoration: none;
+  }
+  .desc3 {
+    color: white;
+    text-align: center;
+    font-family: CamptonMedium;
+    font-size: 18px;
+    margin: 0 auto;
+    max-width: 400px;
+  }
+  .desc3 a {
+    text-decoration: none;
   }
 
 /*INDEX*/
@@ -107,7 +133,6 @@
     text-align: center;
     justify-content: center;
     padding: 25px;
-    max-width: 90%;
   }
   .menu-item a {
     font-family: CamptonBlack;
@@ -131,8 +156,8 @@
   .gallery img {
     justify-content: center;
     transition: 1s;
-    padding: 15px;
-    width: 250px;
+    padding: 10px;
+    width: 270px;
   }
   .gallery img:hover {
     filter:grayscale(100%);
@@ -179,7 +204,7 @@
     align-items: center;
     transition: 1s;
     padding: 10px;
-    width: 250px;
+    width: 270px;
   }
   .media-menu a {
     text-decoration: none;
