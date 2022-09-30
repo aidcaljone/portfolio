@@ -16,6 +16,10 @@
     font-family: CamptonBold;
   }
   @font-face {
+    src: url(../fonts/campton/CamptonBoldItalic.otf);
+    font-family: CamptonBoldItalic;
+  }
+  @font-face {
     src: url(../fonts/campton/CamptonMedium.otf);
     font-family: CamptonMedium;
   }
@@ -74,8 +78,7 @@
     text-decoration: none;
     padding: 0;
     margin: 0 auto;
-    padding-top: 10px
-    padding-bottom: 5px
+    padding-top: 10px;
   }
   .back-button-white:hover {
     color: #44344f;
