@@ -185,7 +185,7 @@
     border-radius: 8px;
     -webkit-filter: blur(4px);
     opacity: 80%;
-    width: 70%;
+    width: 100%;
   }
 
 /*MEDIA*/
@@ -210,32 +210,6 @@
     text-decoration: none;
   }
   .media-menu img:hover {
-    filter:grayscale(100%);
-    transform: scale(1.1);
-  }
-
-  /*PROJECTS*/
-  .projects {
-    margin: 20px 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin-top:10%;
-    margin-bottom:10%;
-    text-decoration: none;
-  }
-  .projects img {
-    justify-content: center;
-    align-items: center;
-    transition: 1s;
-    padding: 10px;
-    width: 250px;
-  }
-  .projects a {
-    text-decoration: none;
-  }
-  .projects img:hover {
     filter:grayscale(100%);
     transform: scale(1.1);
   }
@@ -270,15 +244,15 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
-    margin-top:50px;
-    max-width: 90%;
+    margin-top: 50px;
+    max-width: 80%;
   }
   .project-text-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
-    max-width: 50%;
+    max-width: 90%;
     padding: 0;
   }
   .project-header {
@@ -287,17 +261,11 @@
     color: white;
   }
   .project-subheader {
-    max-width: 90%;
+    max-width: 80%;
     font-family: CamptonMedium;
     font-size: 20px;
     color: white;
     text-align: center;
-    text-justify: inter-word;
-  }
-  .project-text {
-    font-family: CamptonBook;
-    font-size: 18px;
-    color: white;
   }
   .project-content {
     margin: 10px 10px;
@@ -343,6 +311,37 @@
     filter:grayscale(100%);
     transform: scale(1.1);
   }
+  .menu-weblink {
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+  }
+  .menu-weblink a {
+    font-family: CamptonMediumItalic;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0 auto;
+    color: white;
+  }
+  .menu-weblink a:hover {
+    color: #44344f;
+  }
+  .issu-embed-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 0 auto;
+    margin-bottom: auto;
+  }
+  .issu-embed {
+    position: relative;
+    border: none;
+    width: 90%;
+    height: 300px;
+    padding: 20px;
+  }
   #pebblepark {
     margin: 10px 100px;
   }
@@ -355,174 +354,24 @@
   #mendahand-logos img{
     width: 300px;
   }
-
-
-
-  .project-img-long {
-    width: 300px;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    object-fit: contain;
-  }
-  .project-img-medium {
-    width: 300px;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    object-fit: contain;
-  }
-
-
-
-
-
-
-  .project-title-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0 auto;
-    margin-top: 10px;
-    max-width: 90%;
-  }
-
-  .project-text-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0 auto;
-    max-width: 90%;
-    padding: 0;
-  }
-
-  .project-header {
-    font-family: CamptonBold;
-    font-size: 40px;
-    color: white;
-    text-align: center;
-  }
-
-  .project-subheader {
-    font-family: CamptonMedium;
-    font-size: 18px;
-    color: white;
-    text-align: center;
-    max-width: 100%;
-  }
-
-  .project-text {
-    font-family: CamptonBook;
-    font-size: 18px;
-    color: white;
-  }
-
-  .project-img-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 300px;
-    margin: 0 auto;
-    margin-top: 0 auto;
-    margin-bottom: auto;
-  }
-
-  .project-img-item {
-    padding: 10px;
-  }
-
-  .project-img {
-    width: 50px;
-    height: 50px;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    object-fit: contain;
-  }
-
-  .project-desc {
-    color: white;
-    text-align: center;
-    font-family: CamptonMedium;
-    font-size: 20px;
-    padding-top: 5px;
-    margin: 0 auto;
-  }
-
-  .surreal-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0 auto;
-    margin-top: 15px;
-    max-width: 90%;
-  }
-
-  .surreal-gallery {
-    width: 100%;
-    margin: 0 auto;
-    padding: 20px;
-    object-fit: contain;
-  }
-
-  .menu-weblink {
-    font-family: CamptonBlack;
-    text-shadow: 2px 2px 5px #00000033;
-    text-align: center;
-    justify-content: center;
-    padding: 10px;
-  }
-
-  .menu-weblink a {
-    font-family: CamptonBlack;
-    font-size: 24px;
-    text-shadow: 2px 2px 5px #00000033;
-    text-decoration: none;
-    margin: 0 auto;
-    color: white;
-  }
-
-  .menu-weblink a:hover {
-    color: #44344f;
-  }
-
-  .issu-embed-div {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-    margin: 0 auto;
-    margin-top: 0 auto;
-    margin-bottom: auto;
-  }
-
-  .issu-embed {
-    position: relative;
-    border: none;
-    width: 90%;
-    height: 300px;
-    padding: 20px;
-  }
-
-  .project-img-large {
-    width: 300px;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    object-fit: contain;
-  }
-
-
-
   #final-song {
     width: 300px;
     height: 250px;
     padding-top:40px;
   }
-
   #iframe-desc {
     padding-top:15px;
     padding-bottom: 15px;
   }
+  #recyclevid {
+    width:800px;
+  }
+  #recyclevid2 {
+    padding-top: 0px;
+    padding: 20px;
+  }
 
-/*MEDIA-VIDEO*/
-
+/*VIDEO*/
   .video-container {
     display: flex;
     flex-wrap: wrap;
@@ -540,33 +389,7 @@
     object-fit: contain;
   }
 
-/*MEDIA-ARTWORK*/
-
-  .artwork-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0 auto;
-    padding-top: 15px;
-    max-width: 90%;
-  }
-
-  .artwork-img {
-    width: 90%;
-    margin: 15px;
-    object-fit: contain;
-  }
-
-  .artwork-hr {
-    border-color: #44344f;
-    border-width: 8px;
-    border-radius: 8px;
-    -webkit-filter: blur(4px);
-    opacity: 80%;
-  }
-
 /*BIOGRAPHY*/
-
   .bio-container {
     height: 70%;
     padding: 0;
@@ -575,13 +398,11 @@
     align-items: center;
     justify-content: center;
   }
-
   .my-picture img {
     margin: 0 auto;
     float: left;
     max-width: 300px;
   }
-
   .bioh2 {
     float: left;
     color: white;
@@ -590,7 +411,6 @@
     margin: 0 auto;
     padding-left: 50px;
   }
-
   .bio-text p {
     float: left;
     color: white;
@@ -600,7 +420,6 @@
     padding-left: 50px;
     padding-top: 50px;
   }
-
   .cv-container {
     padding: 0;
     margin: 0;
@@ -608,5 +427,4 @@
     align-items: center;
     justify-content: center;
   }
-
 }

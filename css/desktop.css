@@ -311,37 +311,14 @@
     filter:grayscale(100%);
     transform: scale(1.1);
   }
-  #pebblepark {
-    margin: 10px 100px;
-  }
-  #mendahand-cards {
-    margin: 10px 100px;
-  }
-  #mendahand-logos {
-    margin: 10px 10px;
-  }
-  #mendahand-logos img{
-    width: 550px;
-  }
-  .project-desc {
-    color: white;
-    text-align: center;
-    font-family: CamptonMedium;
-    font-size: 20px;
-    padding: 0px;
-    margin: 0 auto;
-  }
   .menu-weblink {
-    text-shadow: 2px 2px 5px #00000033;
     text-align: center;
     justify-content: center;
     padding: 10px;
-    font-size: 5px;
   }
   .menu-weblink a {
     font-family: CamptonMediumItalic;
     font-size: 30px;
-    text-shadow: 2px 2px 5px #00000033;
     text-decoration: none;
     margin: 0 auto;
     color: white;
@@ -364,6 +341,18 @@
     width:1200px;
     height: 700px;
     padding: 40px;
+  }
+  #pebblepark {
+    margin: 10px 100px;
+  }
+  #mendahand-cards {
+    margin: 10px 100px;
+  }
+  #mendahand-logos {
+    margin: 10px 10px;
+  }
+  #mendahand-logos img{
+    width: 550px;
   }
   #final-song {
     width: 825px;
