@@ -391,5 +391,23 @@
 
 /*BIO*/
 
+  .social {
+    display: flex;
+    flex-wrap: flex;
+    justify-content: center;
+    color:white;
+    background-color: none;
+    padding-bottom: 15px;
+  }
+  .social img {
+    justify-content: center;
+    transition: 1s;
+    width: 70px;
+    padding: 20px;
+    max-height:30px
+  }
+  .social img:hover {
+    transform: scale(1.3);
+  }
 
 }
