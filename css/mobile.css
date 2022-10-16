@@ -318,7 +318,7 @@
     padding: 10px;
   }
   .menu-weblink a {
-    font-family: CamptonMediumItalic;
+    font-family: CamptonBoldItalic;
     font-size: 20px;
     text-decoration: none;
     margin: 0 auto;
@@ -390,6 +390,12 @@
   }
 
 /*BIO*/
+  .project-subheader-bio {
+    font-family: CamptonMediumItalic;
+    font-size: 24px;
+    color: grey;
+    text-align: center;
+  }
   .social {
     display: flex;
     flex-wrap: flex;
@@ -401,7 +407,7 @@
   .social img {
     justify-content: center;
     transition: 1s;
-    width: 60px;
+    width: 50px;
     padding: 15px;
   }
   .social img:hover {

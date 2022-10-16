@@ -136,7 +136,7 @@
   }
   .menu-item a {
     font-family: CamptonBlack;
-    font-size: 80px;
+    font-size: 70px;
     text-shadow: 2px 2px 5px #00000033;
     text-decoration: none;
     margin: 0 auto;
@@ -196,14 +196,14 @@
     justify-content: center;
     align-items: center;
     margin-top:20%;
-    margin-bottom:30%;
+    margin-bottom:20%;
     text-decoration: none;
   }
   .media-menu img {
     justify-content: center;
     align-items: center;
     transition: 1s;
-    padding: 25px;
+    padding: 15px;
     width: 400px;
   }
   .media-menu a {
@@ -227,7 +227,8 @@
     justify-content: center;
     align-items: center;
     transition: 1s;
-    padding: 20px;
+    padding: 15px;
+    padding-top: 30px;
     width: 400px;
   }
   .projects a {
@@ -252,7 +253,7 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
-    max-width: 50%;
+    max-width: 70%;
     padding: 0;
   }
   .project-header {
@@ -266,6 +267,7 @@
     font-size: 24px;
     color: white;
     text-align: center;
+    margin: 0 auto;
   }
   .project-content {
     margin: 50px 300px;
@@ -279,7 +281,7 @@
     justify-content: center;
     align-items: center;
     transition: 1s;
-    padding: 25px;
+    padding: 30px 15px 10px 15px;
     width: 700px;
   }
   .project-content a {
@@ -290,7 +292,7 @@
     transform: scale(1.1);
   }
   .project-content-vertical {
-    margin: 50px 300px;
+    margin: 25px 300px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -301,7 +303,7 @@
     justify-content: center;
     align-items: center;
     transition: 1s;
-    padding: 25px;
+    padding: 25px 25px 10px 25px;
     width: 400px;
   }
   .project-content-vertical a {
@@ -390,7 +392,15 @@
   }
 
 /*BIO*/
-
+  .project-subheader-bio {
+    font-family: CamptonMediumItalic;
+    font-size: 24px;
+    color: grey;
+    text-align: center;
+  }
+  #bio-content img{
+    max-height: 595px;
+  }
   .social {
     display: flex;
     flex-wrap: flex;
