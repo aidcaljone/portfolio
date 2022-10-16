@@ -136,7 +136,7 @@
   }
   .menu-item a {
     font-family: CamptonBlack;
-    font-size: 60px;
+    font-size: 50px;
     text-shadow: 2px 2px 5px #00000033;
     text-decoration: none;
     margin: 0 auto;
@@ -407,5 +407,5 @@
   .social img:hover {
     transform: scale(1.3);
   }
-  
+
 }
