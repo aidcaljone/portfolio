@@ -379,6 +379,9 @@
     padding-top: 0px;
     padding: 20px;
   }
+  #roam-logo {
+    width: 200px;
+  }
 
 /*VIDEO*/
   .video-container {
