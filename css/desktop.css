@@ -216,7 +216,7 @@
 
 /*PROJECTS*/
   .projects {
-    margin: 50px 300px;
+    margin: 10px 300px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -240,6 +240,12 @@
   }
 
   /*PROJECT CONTENT*/
+  .project-menu-header {
+    font-family: CamptonBold;
+    font-size: 36px;
+    color: white;
+    margin: 0 auto;
+  }
   .project-title-container {
     display: flex;
     flex-wrap: wrap;
