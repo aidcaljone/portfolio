@@ -39,7 +39,7 @@
 /*BACKGROUNDS*/
   .index-bkg {
     background-image: url('../img/index-bkg.jpg');
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-size: cover;
     }
   #gallery-bkg {
