@@ -41,6 +41,8 @@
     background-image: url('../img/index-bkg.jpg');
     background-attachment: scroll;
     background-size: cover;
+    background-repeat: no-repeat;
+
     }
   #gallery-bkg {
     background-image: url('../img/gallery-bkg.jpg');
