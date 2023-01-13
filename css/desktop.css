@@ -42,7 +42,13 @@
     background-attachment: scroll;
     background-size: cover;
     background-repeat: no-repeat;
-
+    }
+    .video-bkg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      min-height: 100%;
     }
   #gallery-bkg {
     background-image: url('../img/gallery-bkg.jpg');
@@ -128,6 +134,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      position: relative;
   }
   .menu-item {
     font-family: CamptonBlack;
