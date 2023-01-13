@@ -37,13 +37,6 @@
   }
 
 /*BACKGROUNDS*/
-  .index-bkg {
-    background-image: url('../img/index-bkg.jpg');
-    background-attachment: scroll;
-    background-size: cover;
-    background-repeat: no-repeat;
-    }
-
   .video-bkg {
     position: absolute;
     top: 50%;
@@ -53,7 +46,6 @@
     min-height: 100%;
     z-index: -1;
     }
-
   #gallery-bkg {
     background-image: url('../img/gallery-bkg.jpg');
     background-attachment: fixed;
@@ -63,7 +55,6 @@
     background-image: url('../img/media-bkg.jpg');
     background-attachment: fixed;
     background-size: cover;
-
     }
   #projects-bkg-clicked {
     background-image: url('../img/media-bkg-clicked.jpg');
