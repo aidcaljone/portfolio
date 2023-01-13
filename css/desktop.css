@@ -46,23 +46,13 @@
     min-height: 100%;
     z-index: -1;
     }
-  #gallery-bkg {
-    background-image: url('../img/gallery-bkg.jpg');
+  .bkg-1 {
+    background-image: url('../img/bkg-1.jpg');
     background-attachment: fixed;
     background-size: cover;
     }
-  #media-bkg {
-    background-image: url('../img/media-bkg.jpg');
-    background-attachment: fixed;
-    background-size: cover;
-    }
-  #projects-bkg-clicked {
-    background-image: url('../img/media-bkg-clicked.jpg');
-    background-attachment: fixed;
-    background-size: cover;
-    }
-  #bio-bkg {
-    background-image: url('../img/bio-bkg.jpg');
+  .bkg-2 {
+    background-image: url('../img/bkg-2.jpg');
     background-attachment: fixed;
     background-size: cover;
     }
