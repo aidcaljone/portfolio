@@ -37,25 +37,25 @@
   }
 
 /*BACKGROUNDS*/
-.video-bkg {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  min-width: 100%;
-  min-height: 100%;
-  z-index: -1;
-  }
-.bkg-1 {
-  background-image: url('../img/bkg-1.jpg');
-  background-attachment: fixed;
-  background-size: cover;
-  }
-.bkg-2 {
-  background-image: url('../img/bkg-2.jpg');
-  background-attachment: fixed;
-  background-size: cover;
-  }
+  .video-bkg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    }
+  .bkg-1 {
+    background-image: url('../img/bkg-1.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    }
+  .bkg-2 {
+    background-image: url('../img/bkg-2.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    }
 
 /*SITEWIDE*/
   .center-button {
