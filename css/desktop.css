@@ -180,6 +180,7 @@
     -webkit-filter: blur(4px);
     opacity: 80%;
     min-width: 100%;
+    margin: 30px;
   }
 
   /*MEDIA*/
