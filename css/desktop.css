@@ -179,7 +179,7 @@
     border-radius: 8px;
     -webkit-filter: blur(4px);
     opacity: 80%;
-    width: 70%;
+    min-width: 100%;
   }
 
   /*MEDIA*/
