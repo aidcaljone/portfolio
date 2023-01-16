@@ -49,12 +49,12 @@
   .bkg-1 {
     background-image: url('../img/bkg-1.jpg');
     background-attachment: fixed;
-    background-size: cover;
+    background-size: contain;
     }
   .bkg-2 {
     background-image: url('../img/bkg-2.jpg');
     background-attachment: fixed;
-    background-size: cover;
+    background-size: contain;
     }
 
 /*SITEWIDE*/
@@ -167,8 +167,8 @@
   .gallery-phone img {
     justify-content: center;
     transition: 1s;
-    padding: 10px;
-    width: 80px;
+    padding: 15px;
+    width: 150px;
   }
   .gallery-phone img:hover {
     filter:grayscale(100%);
