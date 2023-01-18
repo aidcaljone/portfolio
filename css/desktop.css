@@ -130,7 +130,7 @@
   }
   .menu-item a {
     font-family: CamptonBlack;
-    font-size: 70px;
+    font-size: 90px;
     text-shadow: 2px 2px 5px #00000033;
     text-decoration: none;
     margin: 0 auto;
@@ -190,7 +190,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-top:15%;
+    margin-top:10%;
     margin-bottom:20%;
     text-decoration: none;
   }
@@ -224,7 +224,7 @@
     transition: 1s;
     padding: 15px;
     padding-top: 30px;
-    width: 400px;
+    width: 500px;
   }
   .projects a {
     text-decoration: none;

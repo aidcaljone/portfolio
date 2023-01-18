@@ -45,6 +45,7 @@
     min-width: 100%;
     min-height: 100%;
     z-index: -1;
+    overflow: hidden;
     }
   .bkg-1 {
     background-image: url('../img/bkg-1.jpg');
@@ -130,7 +131,7 @@
   }
   .menu-item a {
     font-family: CamptonBlack;
-    font-size: 50px;
+    font-size: 80px;
     text-shadow: 2px 2px 5px #00000033;
     text-decoration: none;
     margin: 0 auto;
@@ -152,7 +153,7 @@
     justify-content: center;
     transition: 1s;
     padding: 15px;
-    width: 270px;
+    max-width: 300px;
   }
   .gallery img:hover {
     filter:grayscale(100%);
@@ -168,7 +169,7 @@
     justify-content: center;
     transition: 1s;
     padding: 15px;
-    width: 150px;
+    max-width: 400px;
   }
   .gallery-phone img:hover {
     filter:grayscale(100%);
