@@ -121,8 +121,24 @@
       position: relative;
       min-height: 100vh;
   }
-  .menu-item {
+  .name-title {
+    text-shadow: 2px 2px 5px #00000033;
+    text-align: center;
+    justify-content: center;
+    padding: 50px;
+  }
+  .name-title a {
     font-family: CamptonBlack;
+    font-size: 90px;
+    text-shadow: 2px 2px 5px #00000033;
+    text-decoration: none;
+    margin: 0 auto;
+    color: white;
+  }
+  .name-title a:hover {
+    color: #44344f;
+  }
+  .menu-item {
     text-shadow: 2px 2px 5px #00000033;
     text-align: center;
     justify-content: center;
