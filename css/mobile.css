@@ -154,7 +154,7 @@
     justify-content: center;
     transition: 1s;
     padding: 15px;
-    max-width: 300px;
+    max-width: 18em;
   }
   .gallery img:hover {
     filter:grayscale(100%);
@@ -169,8 +169,8 @@
   .gallery-phone img {
     justify-content: center;
     transition: 1s;
-    padding: 15px;
-    max-width: 400px;
+    padding: 1em;
+    max-width: 20em;
   }
   .gallery-phone img:hover {
     filter:grayscale(100%);
