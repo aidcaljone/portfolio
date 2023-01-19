@@ -38,7 +38,7 @@
 
 /*BACKGROUNDS*/
   .video-bkg {
-    align-content: center;
+    align-content:center;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -406,13 +406,12 @@
     justify-content: center;
     color:white;
     background-color: none;
-    padding-bottom: 10px;
   }
   .social img {
     justify-content: center;
     transition: 1s;
-    width: 50px;
-    padding: 15px;
+    width: 4em;
+    padding: 1em;
   }
   .social img:hover {
     transform: scale(1.3);
