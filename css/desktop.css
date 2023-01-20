@@ -204,15 +204,15 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-top:7em;
-    margin-bottom:7em;
+    margin-top:10em;
+    margin-bottom:5em;
     text-decoration: none;
   }
   .media-menu img {
     justify-content: center;
     align-items: center;
     transition: 1s;
-    padding: 50px;
+    padding: 2em;
     max-width: 35em;
   }
   .media-menu a {
@@ -225,7 +225,7 @@
 
 /*PROJECTS*/
   .projects {
-    margin: 1em 5em;
+    margin: 2em 5em;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -432,13 +432,12 @@
     justify-content: center;
     color:white;
     background-color: none;
-    padding-bottom: 10px;
   }
   .social img {
     justify-content: center;
     transition: 1s;
-    width: 5em;
-    padding: 2em;
+    width: 4em;
+    padding: 1em;
   }
   .social img:hover {
     transform: scale(1.3);
