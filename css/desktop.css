@@ -36,7 +36,7 @@
 
 /*BACKGROUNDS*/
   .video-bkg {
-    position: absolute;
+    position:  fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -44,6 +44,7 @@
     min-height: 100%;
     z-index: -1;
     }
+
   .bkg-1 {
     background-image: url('../img/bkg-1.jpg');
     background-attachment: fixed;
