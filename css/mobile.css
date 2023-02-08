@@ -215,6 +215,7 @@
 /*PROJECTS*/
   .projects {
     margin: 1em 3em;
+    padding-bottom: 1.5em;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
