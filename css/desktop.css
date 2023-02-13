@@ -350,22 +350,6 @@
   .menu-weblink a:hover {
     color: #44344f;
   }
-  .issu-embed-div {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-    margin: 0 auto;
-    margin-top: 0 auto;
-    margin-bottom: auto;
-  }
-  .issu-embed {
-    position: relative;
-    border: none;
-    width:1200px;
-    height: 700px;
-    padding: 40px;
-  }
   #pebblepark {
     margin: 10px 100px;
   }
@@ -382,10 +366,6 @@
     width: 825px;
     height: 400px;
     padding-top:30px;
-  }
-  #iframe-desc {
-    padding-top:15px;
-    padding-bottom: 15px;
   }
   #recyclevid {
     width:800px;
