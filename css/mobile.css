@@ -268,10 +268,11 @@
   .project-subheader {
     max-width: 80%;
     font-family: CamptonMedium;
-    font-size: 20px;
+    font-size: 1.5em;
     color: white;
     text-align: center;
-    justify-content: ce
+    margin: 0 auto;
+    }
   }
   .project-role {
     max-width: 60%;
