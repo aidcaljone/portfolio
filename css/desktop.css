@@ -46,7 +46,6 @@
     min-height: 100%;
     z-index: -1;
     }
-
   .bkg-1 {
     background-image: url('../img/bkg-1.jpg');
     background-attachment: fixed;
@@ -73,7 +72,6 @@
     text-decoration: none;
     margin: 0 auto;
     padding-bottom: .5em;
-
   }
   .back-button-white:hover {
     color: #44344f;
@@ -301,50 +299,6 @@
     text-align: center;
     margin: 0 auto;
   }
-  .project-content {
-    margin: 15px 300px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-  }
-  .project-content img {
-    justify-content: center;
-    align-items: center;
-    transition: 1s;
-    padding: 30px 15px 10px 15px;
-    width: 700px;
-  }
-  .project-content a {
-    text-decoration: none;
-  }
-  .project-content img:hover {
-    filter:grayscale(100%);
-    transform: scale(1.1);
-  }
-  .project-content-vertical {
-    margin: 25px 300px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-  }
-  .project-content-vertical img {
-    justify-content: center;
-    align-items: center;
-    transition: 1s;
-    padding: 25px 25px 10px 25px;
-    width: 400px;
-  }
-  .project-content-vertical a {
-    text-decoration: none;
-  }
-  .project-content-vertical img:hover {
-    filter:grayscale(100%);
-    transform: scale(1.1);
-  }
   .menu-weblink {
     text-align: center;
     justify-content: center;
@@ -358,30 +312,6 @@
   }
   .menu-weblink a:hover {
     color: #44344f;
-  }
-  #mendahand-cards {
-    margin: 10px 100px;
-  }
-  #mendahand-logos {
-    margin: 10px 10px;
-  }
-  #mendahand-logos img{
-    width: 550px;
-  }
-  #final-song {
-    width: 825px;
-    height: 400px;
-    padding-top:30px;
-  }
-  #recyclevid {
-    width:800px;
-  }
-  #recyclevid2 {
-    padding-top: 0px;
-    padding: 20px;
-  }
-  #roam-logo {
-    width: 200px;
   }
 
 /*BIO*/
