@@ -1,7 +1,9 @@
 @media all and (min-width: 481px) {
-
   html, body {
        height: 100%;
+   }
+   body {
+       margin: 0;
    }
 
 /*FONTS*/
@@ -385,11 +387,11 @@
     justify-content: center;
     margin: 0 auto;
     margin-top: 15px;
-    max-width: 90%;
+    max-width: 10%;
   }
   .video-gallery {
-    width: 1000px;
-    height: 600px;
+    width: 19em;
+    height: 13em;
     margin: 0 auto;
     padding: 50px;
     padding-top: 80px;
