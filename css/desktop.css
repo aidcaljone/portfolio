@@ -173,6 +173,9 @@
     filter:grayscale(100%);
     transform: scale(1.1);
   }
+  .gallery a {
+    text-decoration: none;
+  }
   .gallery-phone {
     margin: 1em 2em;
     display: flex;
