@@ -57,7 +57,7 @@
     background-size: cover;
     }
 
-/*SITEWIDE*/
+/*BUTTONS*/
   .center-button {
     display: flex;
     flex-wrap: wrap;
@@ -76,6 +76,25 @@
   .back-button-white:hover {
     color: #44344f;
   }
+  .social {
+    display: flex;
+    flex-wrap: flex;
+    justify-content: center;
+    color:white;
+    background-color: none;
+    padding-bottom: 5em;
+  }
+  .social img {
+    justify-content: center;
+    transition: 1s;
+    width: 1em;
+    padding: 1em;
+  }
+  .social img:hover {
+    transform: scale(1.3);
+  }
+
+/*TEXT*/
   .desc1 {
     color: white;
     text-align: center;
@@ -118,23 +137,6 @@
       justify-content: center;
       position: relative;
       min-height: 100vh;
-  }
-  .name-title {
-    text-shadow: 2px 2px 5px #00000033;
-    text-align: center;
-    justify-content: center;
-    padding: 50px;
-  }
-  .name-title a {
-    font-family: CamptonBlack;
-    font-size: 90px;
-    text-shadow: 2px 2px 5px #00000033;
-    text-decoration: none;
-    margin: 0 auto;
-    color: white;
-  }
-  .name-title a:hover {
-    color: #44344f;
   }
   .menu-item {
     text-shadow: 2px 2px 5px #00000033;
@@ -314,31 +316,4 @@
     color: #44344f;
   }
 
-/*BIO*/
-  .project-subheader-bio {
-    font-family: CamptonMediumItalic;
-    font-size: 24px;
-    color: grey;
-    text-align: center;
-  }
-  #bio-content img{
-    max-height: 595px;
-  }
-  .social {
-    display: flex;
-    flex-wrap: flex;
-    justify-content: center;
-    color:white;
-    background-color: none;
-    padding-bottom: 5em;
-  }
-  .social img {
-    justify-content: center;
-    transition: 1s;
-    width: 1em;
-    padding: 1em;
-  }
-  .social img:hover {
-    transform: scale(1.3);
-  }
 }
