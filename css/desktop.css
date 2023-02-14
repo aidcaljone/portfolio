@@ -249,6 +249,11 @@
     filter:grayscale(100%);
     transform: scale(1.1);
   }
+  .projects iframe {
+    width:70em;
+    min-height:45em;
+    padding: 5em;
+  }
 
   /*PROJECT CONTENT*/
   .project-menu-header {
@@ -281,7 +286,7 @@
   .project-subheader {
     max-width: 60%;
     font-family: CamptonMedium;
-    font-size: 24px;
+    font-size: 2em;
     color: white;
     text-align: center;
     margin: 0 auto;
@@ -289,7 +294,6 @@
   .project-role {
     max-width: 60%;
     font-family: CamptonLight;
-    font-size: 1.5em;
     color: white;
     text-align: center;
     margin: 0 auto;
@@ -345,15 +349,12 @@
   }
   .menu-weblink a {
     font-family: CamptonMediumItalic;
-    font-size: 30px;
+    font-size: 10em;
     margin: 0 auto;
     color: white;
   }
   .menu-weblink a:hover {
     color: #44344f;
-  }
-  #pebblepark {
-    margin: 10px 100px;
   }
   #mendahand-cards {
     margin: 10px 100px;
@@ -380,20 +381,6 @@
     width: 200px;
   }
 
-/*VIDEO*/
-  .video-container iframe{
-    margin: 1em 2em;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    max-width: 40rem;
-  }
-  .video-gallery {
-    justify-content: center;
-    transition: 1s;
-    padding: 1.5em;
-  }
-
 /*BIO*/
   .project-subheader-bio {
     font-family: CamptonMediumItalic;
@@ -415,7 +402,7 @@
   .social img {
     justify-content: center;
     transition: 1s;
-    width: 4em;
+    width: 1em;
     padding: 1em;
   }
   .social img:hover {
