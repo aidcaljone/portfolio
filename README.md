@@ -1,2 +1,2 @@
 # portfolio
-Media Design Portfolio by Aidan Jones
+Portfolio by Aidan Jones
