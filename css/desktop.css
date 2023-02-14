@@ -381,21 +381,17 @@
   }
 
 /*VIDEO*/
-  .video-container {
+  .video-container iframe{
+    margin: 1em 2em;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 0 auto;
-    margin-top: 15px;
-    max-width: 10%;
+    max-width: 40rem;
   }
   .video-gallery {
-    width: 19em;
-    height: 13em;
-    margin: 0 auto;
-    padding: 50px;
-    padding-top: 80px;
-    object-fit: contain;
+    justify-content: center;
+    transition: 1s;
+    padding: 1.5em;
   }
 
 /*BIO*/
