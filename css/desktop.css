@@ -192,6 +192,25 @@
     filter:grayscale(100%);
     transform: scale(1.1);
   }
+  .gallery-wide {
+    margin: 1em 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .gallery-wide img {
+    justify-content: center;
+    transition: 1s;
+    padding: 1.5em;
+    max-width: 30em;
+  }
+  .gallery-wide img:hover {
+    filter:grayscale(100%);
+    transform: scale(1.1);
+  }
+  .gallery-wide a {
+    text-decoration: none;
+  }
   .gallery-hr {
     border-color: #44344f;
     border-width: 8px;
